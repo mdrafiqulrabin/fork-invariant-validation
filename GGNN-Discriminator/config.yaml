@@ -1,0 +1,16 @@
+loading:
+    vocab_cutoff: 2
+    max_graphs: 50000
+    max_nodes: 500
+model:
+    hidden_dim: 128
+    time_steps: [3, 1, 3, 1]
+    residuals:
+        1: [0]
+        3: [0, 1]
+training:
+    max_batch_size: 40000
+    max_expansions: 15
+    max_word_length: 10
+    num_epochs: 10
+    learning_rate: 0.001

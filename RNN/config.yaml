@@ -1,0 +1,12 @@
+training:
+  num_epochs: 10
+  learning_rate: 0.002
+  max_lr_epochs: 10
+  print_freq: 10
+  batch_size: 10000
+words:
+  vocab_cutoff: 2
+model:
+  num_layers: 1
+  embed_dim: 300
+  hidden_dim: 500
