@@ -1,0 +1,86 @@
+Epoch 1
+D:\Data\Code\Invariants\Repos\mathnet-numerics\src\Numerics\Statistics\MCMC\MetropolisHastingsSampler.cs	MathNet.Numerics.Statistics.Mcmc.MetropolisHastingsSampler.Sample()	1.000000	19	0	0.682401
+D:\Data\Code\Invariants\Repos\mathnet-numerics\src\Numerics\Statistics\MCMC\MetropolisHastingsSampler.cs	MathNet.Numerics.Statistics.Mcmc.MetropolisHastingsSampler.Sample()	1.000000	19	0	0.974941
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\MinimizationOperations.cs	Lucene.Net.Util.Automaton.MinimizationOperations.StateList.Add(Lucene.Net.Util.Automaton.State q)	1.000000	88	0	0.458007
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\MinimizationOperations.cs	Lucene.Net.Util.Automaton.MinimizationOperations.StateList.Add(Lucene.Net.Util.Automaton.State q)	1.000000	88	0	0.609438
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\MinimizationOperations.cs	Lucene.Net.Util.Automaton.MinimizationOperations.StateList.Add(Lucene.Net.Util.Automaton.State q)	1.000000	88	0	0.997111
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\MinimizationOperations.cs	Lucene.Net.Util.Automaton.MinimizationOperations.StateList.Add(Lucene.Net.Util.Automaton.State q)	0.011364	1	87	0.077208
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\MinimizationOperations.cs	Lucene.Net.Util.Automaton.MinimizationOperations.StateList.Add(Lucene.Net.Util.Automaton.State q)	1.000000	88	0	0.835770
+D:\Data\Code\Invariants\Repos\mathnet-numerics\src\Numerics\Complex32.cs	MathNet.Numerics.Complex32.Conjugate()	0.833333	80	16	0.007535
+D:\Data\Code\Invariants\Repos\libgit2sharp\LibGit2Sharp\Rebase.cs	LibGit2Sharp.Rebase.EnsureNonBareRepo()	0.981132	52	1	0.970891
+D:\Data\Code\Invariants\Repos\logging-log4net\src\Util\PatternStringConverters\LiteralPatternConverter.cs	log4net.Util.PatternStringConverters.LiteralPatternConverter.Format(System.IO.TextWriter writer, System.Object state)	1.000000	66	0	0.998021
+D:\Data\Code\Invariants\Repos\dotliquid\src\DotLiquid\Strainer.cs	DotLiquid.Strainer.GlobalFilter(System.Type filter)	1.000000	97	0	0.917118
+D:\Data\Code\Invariants\Repos\libgit2sharp\LibGit2Sharp\Network.cs	LibGit2Sharp.Network.Push(LibGit2Sharp.Branch branch)	1.000000	20	0	0.978973
+D:\Data\Code\Invariants\Repos\dotliquid\src\DotLiquid\Drop.cs	DotLiquid.Drop.GetObject()	1.000000	81	0	0.995178
+D:\Data\Code\Invariants\Repos\mongo-csharp-driver\src\MongoDB.Driver.Core\Optional.cs	MongoDB.Driver.Optional.Create(T value)	1.000000	88	0	0.929598
+D:\Data\Code\Invariants\Repos\metrics.net\Src\Metrics\Core\CounterMetric.cs	Metrics.Core.CounterMetric.Increment()	1.000000	75	0	0.997055
+D:\Data\Code\Invariants\Repos\mongo-csharp-driver\src\MongoDB.Driver.Core\ReadPreference.cs	MongoDB.Driver.ReadPreference.With(MongoDB.Driver.ReadPreferenceMode mode)	1.000000	10	0	0.997915
+D:\Data\Code\Invariants\Repos\logging-log4net\src\Core\LogImpl.cs	log4net.Core.LogImpl.Info(System.Object message)	1.000000	92	0	0.447486
+validation on 17 samples, acc: 0.824, prec: 0.923, rec: 0.857, -acc: 0.667
+D:\Data\Code\Invariants\Repos\mathnet-numerics\src\Numerics\Distributions\Pareto.cs	MathNet.Numerics.Distributions.Pareto.ToString()	1.000000	27	0	0.995190
+D:\Data\Code\Invariants\Repos\mongo-csharp-driver\src\MongoDB.Driver.Core\WriteConcern.cs	MongoDB.Driver.WriteConcern.WCount.Equals(MongoDB.Driver.WriteConcern.WCount other)	0.151515	10	56	0.009979
+D:\Data\Code\Invariants\Repos\mongo-csharp-driver\src\MongoDB.Driver.Core\WriteConcern.cs	MongoDB.Driver.WriteConcern.WCount.Equals(MongoDB.Driver.WriteConcern.WCount other)	0.500000	33	33	0.006404
+D:\Data\Code\Invariants\Repos\dotliquid\src\DotLiquid\Drop.cs	DotLiquid.Drop.CreateTypeResolution(System.Type type)	1.000000	81	0	0.995226
+D:\Data\Code\Invariants\Repos\mongo-csharp-driver\src\MongoDB.Driver.Core\Core\Servers\ServerId.cs	MongoDB.Driver.Core.Servers.ServerId.GetHashCode()	0.300000	30	70	0.060579
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\State.cs	Lucene.Net.Util.Automaton.State.TransitionsIterable.IteratorAnonymousInnerClassHelper.Dispose()	0.022727	2	86	0.112820
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\State.cs	Lucene.Net.Util.Automaton.State.TransitionsIterable.IteratorAnonymousInnerClassHelper.Dispose()	1.000000	88	0	0.998753
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\State.cs	Lucene.Net.Util.Automaton.State.TransitionsIterable.IteratorAnonymousInnerClassHelper.Dispose()	0.022727	2	86	0.083960
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\State.cs	Lucene.Net.Util.Automaton.State.TransitionsIterable.IteratorAnonymousInnerClassHelper.Dispose()	0.988636	87	1	0.791517
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\State.cs	Lucene.Net.Util.Automaton.State.TransitionsIterable.IteratorAnonymousInnerClassHelper.Dispose()	1.000000	88	0	0.984261
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\State.cs	Lucene.Net.Util.Automaton.State.TransitionsIterable.IteratorAnonymousInnerClassHelper.Dispose()	0.011364	1	87	0.348770
+D:\Data\Code\Invariants\Repos\libgit2sharp\LibGit2Sharp\ObjectId.cs	LibGit2Sharp.ObjectId.Equals(LibGit2Sharp.ObjectId other)	1.000000	99	0	0.154075
+D:\Data\Code\Invariants\Repos\logging-log4net\src\Appender\AppenderCollection.cs	log4net.Appender.AppenderCollection.ValidateIndex(System.Int32 i)	0.979167	94	2	0.995747
+D:\Data\Code\Invariants\Repos\mongo-csharp-driver\src\MongoDB.Driver.Core\WriteConcern.cs	MongoDB.Driver.WriteConcern.WCount.GetHashCode()	0.700000	21	9	0.045883
+D:\Data\Code\Invariants\Repos\logging-log4net\src\Util\ConverterInfo.cs	log4net.Util.ConverterInfo.AddProperty(log4net.Util.PropertyEntry entry)	1.000000	12	0	0.951577
+D:\Data\Code\Invariants\Repos\metrics.net\Src\Metrics\Unit.cs	Metrics.Unit.Custom(System.String name)	1.000000	68	0	0.825224
+D:\Data\Code\Invariants\Repos\mathnet-numerics\src\Numerics\LinearAlgebra\Single\SparseMatrix.cs	MathNet.Numerics.LinearAlgebra.Single.SparseMatrix.OfMatrix(MathNet.Numerics.LinearAlgebra.Matrix<System.Single> matrix)	0.409091	9	13	0.108642
+D:\Data\Code\Invariants\Repos\dotliquid\src\DotLiquid\Drop.cs	DotLiquid.DropBase.ContainsKey(System.Object name)	0.862069	75	12	0.997793
+D:\Data\Code\Invariants\Repos\logging-log4net\src\Layout\Pattern\LevelPatternConverter.cs	log4net.Layout.Pattern.LevelPatternConverter.Convert(System.IO.TextWriter writer, log4net.Core.LoggingEvent loggingEvent)	0.600000	27	18	0.953506
+D:\Data\Code\Invariants\Repos\logging-log4net\src\Layout\Pattern\LevelPatternConverter.cs	log4net.Layout.Pattern.LevelPatternConverter.Convert(System.IO.TextWriter writer, log4net.Core.LoggingEvent loggingEvent)	0.600000	27	18	0.792719
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Index\LiveIndexWriterConfig.cs	Lucene.Net.Index.LiveIndexWriterConfig.SetTermIndexInterval(System.Int32 interval)	1.000000	37	0	0.077164
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Index\LiveIndexWriterConfig.cs	Lucene.Net.Index.LiveIndexWriterConfig.SetTermIndexInterval(System.Int32 interval)	1.000000	37	0	0.961517
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Index\LiveIndexWriterConfig.cs	Lucene.Net.Index.LiveIndexWriterConfig.SetTermIndexInterval(System.Int32 interval)	1.000000	37	0	0.563821
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Index\LiveIndexWriterConfig.cs	Lucene.Net.Index.LiveIndexWriterConfig.SetTermIndexInterval(System.Int32 interval)	1.000000	37	0	0.174356
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Index\LiveIndexWriterConfig.cs	Lucene.Net.Index.LiveIndexWriterConfig.SetTermIndexInterval(System.Int32 interval)	1.000000	37	0	0.306269
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Index\LiveIndexWriterConfig.cs	Lucene.Net.Index.LiveIndexWriterConfig.SetTermIndexInterval(System.Int32 interval)	1.000000	37	0	0.023293
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Index\LiveIndexWriterConfig.cs	Lucene.Net.Index.LiveIndexWriterConfig.SetTermIndexInterval(System.Int32 interval)	1.000000	37	0	0.356991
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Index\LiveIndexWriterConfig.cs	Lucene.Net.Index.LiveIndexWriterConfig.SetTermIndexInterval(System.Int32 interval)	0.405405	15	22	0.670218
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Index\LiveIndexWriterConfig.cs	Lucene.Net.Index.LiveIndexWriterConfig.SetTermIndexInterval(System.Int32 interval)	0.594595	22	15	0.722003
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Index\LiveIndexWriterConfig.cs	Lucene.Net.Index.LiveIndexWriterConfig.SetTermIndexInterval(System.Int32 interval)	1.000000	37	0	0.112373
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Index\LiveIndexWriterConfig.cs	Lucene.Net.Index.LiveIndexWriterConfig.SetTermIndexInterval(System.Int32 interval)	1.000000	37	0	0.061205
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Index\LiveIndexWriterConfig.cs	Lucene.Net.Index.LiveIndexWriterConfig.SetTermIndexInterval(System.Int32 interval)	1.000000	37	0	0.414849
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Index\LiveIndexWriterConfig.cs	Lucene.Net.Index.LiveIndexWriterConfig.SetTermIndexInterval(System.Int32 interval)	1.000000	37	0	0.348910
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Index\LiveIndexWriterConfig.cs	Lucene.Net.Index.LiveIndexWriterConfig.SetTermIndexInterval(System.Int32 interval)	1.000000	37	0	0.096625
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Index\LiveIndexWriterConfig.cs	Lucene.Net.Index.LiveIndexWriterConfig.SetTermIndexInterval(System.Int32 interval)	1.000000	37	0	0.868434
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Index\LiveIndexWriterConfig.cs	Lucene.Net.Index.LiveIndexWriterConfig.SetTermIndexInterval(System.Int32 interval)	1.000000	37	0	0.070190
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Index\LiveIndexWriterConfig.cs	Lucene.Net.Index.LiveIndexWriterConfig.SetTermIndexInterval(System.Int32 interval)	1.000000	37	0	0.999059
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Index\LiveIndexWriterConfig.cs	Lucene.Net.Index.LiveIndexWriterConfig.SetTermIndexInterval(System.Int32 interval)	1.000000	37	0	0.038429
+D:\Data\Code\Invariants\Repos\nustache\Nustache.Core\RenderContext.cs	Nustache.Core.RenderContext.Exit()	0.132208	94	617	0.115355
+D:\Data\Code\Invariants\Repos\nustache\Nustache.Core\RenderContext.cs	Nustache.Core.RenderContext.Exit()	1.000000	94	0	0.969940
+D:\Data\Code\Invariants\Repos\nustache\Nustache.Core\RenderContext.cs	Nustache.Core.RenderContext.Exit()	1.000000	94	0	0.563395
+D:\Data\Code\Invariants\Repos\mongo-csharp-driver\src\MongoDB.Driver.Core\DatabaseNamespace.cs	MongoDB.Driver.DatabaseNamespace.ToString()	1.000000	11	0	0.995060
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\Automaton.cs	Lucene.Net.Util.Automaton.Automaton.Repeat(System.Int32 min)	1.000000	87	0	0.363530
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\Automaton.cs	Lucene.Net.Util.Automaton.Automaton.Repeat(System.Int32 min)	0.149425	13	74	0.050548
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\Automaton.cs	Lucene.Net.Util.Automaton.Automaton.Repeat(System.Int32 min)	1.000000	87	0	0.363477
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\Automaton.cs	Lucene.Net.Util.Automaton.Automaton.Repeat(System.Int32 min)	1.000000	87	0	0.825108
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\Automaton.cs	Lucene.Net.Util.Automaton.Automaton.Repeat(System.Int32 min)	1.000000	87	0	0.617557
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\Automaton.cs	Lucene.Net.Util.Automaton.Automaton.Repeat(System.Int32 min)	1.000000	87	0	0.401080
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\Automaton.cs	Lucene.Net.Util.Automaton.Automaton.Repeat(System.Int32 min)	1.000000	87	0	0.997036
+D:\Data\Code\Invariants\Repos\logging-log4net\src\Core\LogImpl.cs	log4net.Core.LogImpl.Error(System.Object message)	1.000000	14	0	0.960735
+D:\Data\Code\Invariants\Repos\mongo-csharp-driver\src\MongoDB.Driver.Core\Core\ConnectionPools\ExclusiveConnectionPool.cs	MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool.Clear()	1.000000	81	0	0.555975
+D:\Data\Code\Invariants\Repos\mongo-csharp-driver\src\MongoDB.Driver.Core\Core\ConnectionPools\ExclusiveConnectionPool.cs	MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool.Clear()	0.012346	1	80	0.481354
+D:\Data\Code\Invariants\Repos\mongo-csharp-driver\src\MongoDB.Driver.Core\Core\ConnectionPools\ExclusiveConnectionPool.cs	MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool.Clear()	0.987654	80	1	0.996754
+D:\Data\Code\Invariants\Repos\mongo-csharp-driver\src\MongoDB.Driver.Core\Core\ConnectionPools\ExclusiveConnectionPool.cs	MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool.Clear()	1.000000	81	0	0.996893
+D:\Data\Code\Invariants\Repos\mongo-csharp-driver\src\MongoDB.Driver.Core\Core\ConnectionPools\ExclusiveConnectionPool.cs	MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool.Clear()	1.000000	81	0	0.967087
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\Automaton.cs	Lucene.Net.Util.Automaton.Automaton.Determinize()	1.000000	88	0	0.216516
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\Automaton.cs	Lucene.Net.Util.Automaton.Automaton.Determinize()	1.000000	88	0	0.637280
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\Automaton.cs	Lucene.Net.Util.Automaton.Automaton.Determinize()	1.000000	88	0	0.069955
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\Automaton.cs	Lucene.Net.Util.Automaton.Automaton.Determinize()	0.011364	1	87	0.266208
+D:\Data\Code\Invariants\Repos\mathnet-numerics\src\Numerics\LinearAlgebra\Builder.cs	MathNet.Numerics.LinearAlgebra.Single.MatrixBuilder.Dense(MathNet.Numerics.LinearAlgebra.Storage.DenseColumnMajorMatrixStorage<System.Single> storage)	0.979592	96	2	0.149506
+D:\Data\Code\Invariants\Repos\mathnet-numerics\src\Numerics\LinearAlgebra\Builder.cs	MathNet.Numerics.LinearAlgebra.Single.MatrixBuilder.Dense(MathNet.Numerics.LinearAlgebra.Storage.DenseColumnMajorMatrixStorage<System.Single> storage)	0.010204	1	97	0.126429
+D:\Data\Code\Invariants\Repos\nustache\Nustache.Core\Helpers.cs	Nustache.Core.Helpers.Register(System.String name, Nustache.Core.Helper helper)	0.210526	8	30	0.001377
+D:\Data\Code\Invariants\Repos\metrics.net\Src\Metrics\MetricsConfig.cs	Metrics.MetricsConfig.WithConfigExtension(System.Func<Metrics.MetricsContext, System.Func<Metrics.HealthStatus>, T> extension)	1.000000	68	0	0.994623
+D:\Data\Code\Invariants\Repos\metrics.net\Src\Metrics\MetricsConfig.cs	Metrics.MetricsConfig.WithConfigExtension(System.Func<Metrics.MetricsContext, System.Func<Metrics.HealthStatus>, T> extension)	1.000000	68	0	0.832593
+D:\Data\Code\Invariants\Repos\metrics.net\Src\Metrics\Core\TimerMetric.cs	Metrics.Core.TimerMetric.Reset()	1.000000	10	0	0.997093
+D:\Data\Code\Invariants\Repos\dotliquid\src\DotLiquid\Template.cs	DotLiquid.Template.RegisterValueTypeTransformer(System.Type type, System.Func<System.Object, System.Object> func)	1.000000	17	0	0.997014
+testing on 66 samples, acc: 0.606, prec: 0.758, rec: 0.581, -acc: 0.652

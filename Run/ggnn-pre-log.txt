@@ -1,0 +1,86 @@
+Epoch 1
+D:\Data\Code\Invariants\Repos\metrics.net\Src\Metrics\Utils\EWMA.cs	Metrics.Utils.EWMA.Update(System.Int64 value)	0.061856	6	91	0.003031
+D:\Data\Code\Invariants\Repos\metrics.net\Src\Metrics\Utils\EWMA.cs	Metrics.Utils.EWMA.Update(System.Int64 value)	0.030928	3	94	0.002153
+D:\Data\Code\Invariants\Repos\dotliquid\src\DotLiquid\Template.cs	DotLiquid.Template.Render(System.IO.TextWriter result, DotLiquid.RenderParameters parameters)	1.000000	97	0	0.999995
+D:\Data\Code\Invariants\Repos\dotliquid\src\DotLiquid\Template.cs	DotLiquid.Template.Render(System.IO.TextWriter result, DotLiquid.RenderParameters parameters)	0.443299	43	54	0.999804
+D:\Data\Code\Invariants\Repos\metrics.net\Src\Metrics\Core\BaseMetricsContext.cs	Metrics.Core.BaseMetricsContext.Context(System.String contextName)	0.116279	10	76	0.000004
+D:\Data\Code\Invariants\Repos\metrics.net\Src\Metrics\Core\BaseMetricsContext.cs	Metrics.Core.BaseMetricsContext.Context(System.String contextName)	1.000000	86	0	0.999984
+D:\Data\Code\Invariants\Repos\libgit2sharp\LibGit2Sharp\Core\Proxy.cs	LibGit2Sharp.Core.Proxy.git_rebase_operation_entrycount(LibGit2Sharp.Core.RebaseSafeHandle rebase)	1.000000	49	0	0.999986
+D:\Data\Code\Invariants\Repos\nustache\Nustache.Core\RenderContext.cs	Nustache.Core.RenderContext.Push(System.Object data)	0.179775	16	73	0.000009
+D:\Data\Code\Invariants\Repos\nustache\Nustache.Core\RenderContext.cs	Nustache.Core.RenderContext.Push(System.Object data)	1.000000	89	0	0.993854
+D:\Data\Code\Invariants\Repos\nustache\Nustache.Core\RenderContext.cs	Nustache.Core.RenderContext.Push(System.Object data)	1.000000	89	0	0.999995
+D:\Data\Code\Invariants\Repos\nustache\Nustache.Core\RenderContext.cs	Nustache.Core.RenderContext.Push(System.Object data)	1.000000	89	0	0.999974
+D:\Data\Code\Invariants\Repos\libgit2sharp\LibGit2Sharp\BranchCollection.cs	LibGit2Sharp.BranchCollection.Add(System.String name, System.String committish)	0.988372	85	1	0.999902
+D:\Data\Code\Invariants\Repos\libgit2sharp\LibGit2Sharp\BranchCollection.cs	LibGit2Sharp.BranchCollection.Add(System.String name, System.String committish)	1.000000	86	0	0.999847
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\BasicOperations.cs	Lucene.Net.Util.Automaton.BasicOperations.PointTransitions.Reset(System.Int32 point)	0.022727	2	86	0.956140
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\BasicOperations.cs	Lucene.Net.Util.Automaton.BasicOperations.PointTransitions.Reset(System.Int32 point)	0.011364	1	87	0.690123
+D:\Data\Code\Invariants\Repos\metrics.net\Src\Metrics\Core\HistogramMetric.cs	Metrics.Core.HistogramMetric.Reset()	0.562500	9	7	0.944191
+D:\Data\Code\Invariants\Repos\mathnet-numerics\src\Numerics\Distributions\ChiSquared.cs	MathNet.Numerics.Distributions.ChiSquared.Sample()	0.444444	8	10	0.032930
+D:\Data\Code\Invariants\Repos\mathnet-numerics\src\Numerics\LinearAlgebra\Solvers\IterationCountStopCriterion.cs	MathNet.Numerics.LinearAlgebra.Solvers.IterationCountStopCriterion.ResetMaximumNumberOfIterationsToDefault()	1.000000	21	0	0.999998
+D:\Data\Code\Invariants\Repos\metrics.net\Src\Metrics\Core\CounterMetric.cs	Metrics.Core.CounterMetric.Increment(System.String item)	0.694444	25	11	0.028906
+D:\Data\Code\Invariants\Repos\logging-log4net\src\Appender\AppenderSkeleton.cs	log4net.Appender.AppenderSkeleton.IsAsSevereAsThreshold(log4net.Core.Level level)	0.865979	84	13	0.403040
+validation on 20 samples, acc: 0.750, prec: 0.615, rec: 1.000, -acc: 0.583
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Index\IndexWriterConfig.cs	Lucene.Net.Index.IndexWriterConfig.SetMaxThreadStates(System.Int32 maxThreadStates)	1.000000	40	0	0.999977
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Index\IndexWriterConfig.cs	Lucene.Net.Index.IndexWriterConfig.SetMaxThreadStates(System.Int32 maxThreadStates)	0.750000	30	10	0.965960
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Index\IndexWriterConfig.cs	Lucene.Net.Index.IndexWriterConfig.SetMaxThreadStates(System.Int32 maxThreadStates)	1.000000	40	0	0.999915
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Index\IndexWriterConfig.cs	Lucene.Net.Index.IndexWriterConfig.SetMaxThreadStates(System.Int32 maxThreadStates)	1.000000	40	0	0.999867
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Index\IndexWriterConfig.cs	Lucene.Net.Index.IndexWriterConfig.SetMaxThreadStates(System.Int32 maxThreadStates)	1.000000	40	0	0.840700
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Index\IndexWriterConfig.cs	Lucene.Net.Index.IndexWriterConfig.SetMaxThreadStates(System.Int32 maxThreadStates)	0.750000	30	10	0.429321
+D:\Data\Code\Invariants\Repos\libgit2sharp\LibGit2Sharp\Core\Proxy.cs	LibGit2Sharp.Core.Proxy.git_repository_head_unborn(LibGit2Sharp.Core.Handles.RepositorySafeHandle repo)	1.000000	99	0	0.999354
+D:\Data\Code\Invariants\Repos\mathnet-numerics\src\Numerics\Distributions\Beta.cs	MathNet.Numerics.Distributions.Beta.ToString()	0.769231	20	6	0.001098
+D:\Data\Code\Invariants\Repos\libgit2sharp\LibGit2Sharp\Core\Proxy.cs	LibGit2Sharp.Core.Proxy.git_index_write(LibGit2Sharp.Core.Handles.IndexSafeHandle index)	0.010101	1	98	0.437692
+D:\Data\Code\Invariants\Repos\dotliquid\src\DotLiquid\Template.cs	DotLiquid.Template.Render()	0.488889	44	46	0.999822
+D:\Data\Code\Invariants\Repos\dotliquid\src\DotLiquid\Template.cs	DotLiquid.Template.Render()	1.000000	90	0	0.998783
+D:\Data\Code\Invariants\Repos\dotliquid\src\DotLiquid\Template.cs	DotLiquid.Template.Render()	1.000000	90	0	0.999393
+D:\Data\Code\Invariants\Repos\libgit2sharp\LibGit2Sharp\ObjectId.cs	LibGit2Sharp.ObjectId.Equals(System.Object obj)	0.012048	1	82	0.969700
+D:\Data\Code\Invariants\Repos\mathnet-numerics\src\Numerics\Interpolation\LinearSpline.cs	MathNet.Numerics.Interpolation.LinearSpline.Integrate(System.Double a, System.Double b)	1.000000	11	0	0.999995
+D:\Data\Code\Invariants\Repos\mathnet-numerics\src\Numerics\Distributions\StudentT.cs	MathNet.Numerics.Distributions.StudentT.CumulativeDistribution(System.Double x)	0.600000	21	14	0.085508
+D:\Data\Code\Invariants\Repos\libgit2sharp\LibGit2Sharp\Repository.cs	LibGit2Sharp.Repository.Clone(System.String sourceUrl, System.String workdirPath)	0.790323	49	13	0.999998
+D:\Data\Code\Invariants\Repos\dotliquid\src\DotLiquid\Util\Range.cs	DotLiquid.Util.Range.Succ(System.Int32 val)	1.000000	23	0	0.011137
+D:\Data\Code\Invariants\Repos\mathnet-numerics\src\Numerics\LinearAlgebra\Complex\Solvers\ILUTPPreconditioner.cs	MathNet.Numerics.LinearAlgebra.Complex.Solvers.ILUTPPreconditioner.UpperTriangle()	1.000000	19	0	0.999996
+D:\Data\Code\Invariants\Repos\metrics.net\Src\Metrics\Visualization\MetricsHttpListener.cs	Metrics.Visualization.MetricsHttpListener.Start()	1.000000	50	0	0.989400
+D:\Data\Code\Invariants\Repos\metrics.net\Src\Metrics\Visualization\MetricsHttpListener.cs	Metrics.Visualization.MetricsHttpListener.Start()	1.000000	50	0	0.999765
+D:\Data\Code\Invariants\Repos\metrics.net\Src\Metrics\Visualization\MetricsHttpListener.cs	Metrics.Visualization.MetricsHttpListener.Start()	0.020000	1	49	0.982441
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\RegExp.cs	Lucene.Net.Util.Automaton.RegExp.Check(System.Int32 flag)	1.000000	87	0	0.999998
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\RegExp.cs	Lucene.Net.Util.Automaton.RegExp.Check(System.Int32 flag)	1.000000	87	0	0.999874
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\RegExp.cs	Lucene.Net.Util.Automaton.RegExp.Check(System.Int32 flag)	1.000000	87	0	0.999925
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\RegExp.cs	Lucene.Net.Util.Automaton.RegExp.Check(System.Int32 flag)	1.000000	87	0	0.999998
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\RegExp.cs	Lucene.Net.Util.Automaton.RegExp.Check(System.Int32 flag)	1.000000	87	0	0.999969
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\RegExp.cs	Lucene.Net.Util.Automaton.RegExp.Check(System.Int32 flag)	1.000000	87	0	0.999996
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\RegExp.cs	Lucene.Net.Util.Automaton.RegExp.Check(System.Int32 flag)	1.000000	87	0	0.999909
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\RegExp.cs	Lucene.Net.Util.Automaton.RegExp.Check(System.Int32 flag)	1.000000	87	0	0.999818
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\RegExp.cs	Lucene.Net.Util.Automaton.RegExp.Check(System.Int32 flag)	1.000000	87	0	0.999998
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\RegExp.cs	Lucene.Net.Util.Automaton.RegExp.Check(System.Int32 flag)	1.000000	87	0	0.025457
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\RegExp.cs	Lucene.Net.Util.Automaton.RegExp.Check(System.Int32 flag)	1.000000	87	0	0.999946
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\RegExp.cs	Lucene.Net.Util.Automaton.RegExp.Check(System.Int32 flag)	1.000000	87	0	0.999967
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\RegExp.cs	Lucene.Net.Util.Automaton.RegExp.Check(System.Int32 flag)	1.000000	87	0	0.999997
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\RegExp.cs	Lucene.Net.Util.Automaton.RegExp.Check(System.Int32 flag)	1.000000	87	0	0.999942
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\RegExp.cs	Lucene.Net.Util.Automaton.RegExp.Check(System.Int32 flag)	1.000000	87	0	0.999998
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\RegExp.cs	Lucene.Net.Util.Automaton.RegExp.Check(System.Int32 flag)	1.000000	87	0	0.999992
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\RegExp.cs	Lucene.Net.Util.Automaton.RegExp.Check(System.Int32 flag)	1.000000	87	0	0.999878
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\RegExp.cs	Lucene.Net.Util.Automaton.RegExp.Check(System.Int32 flag)	1.000000	87	0	0.999989
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\RegExp.cs	Lucene.Net.Util.Automaton.RegExp.Check(System.Int32 flag)	1.000000	87	0	0.999741
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\RegExp.cs	Lucene.Net.Util.Automaton.RegExp.Check(System.Int32 flag)	1.000000	87	0	0.999993
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\RegExp.cs	Lucene.Net.Util.Automaton.RegExp.Check(System.Int32 flag)	1.000000	87	0	0.997792
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\RegExp.cs	Lucene.Net.Util.Automaton.RegExp.Check(System.Int32 flag)	1.000000	87	0	0.999992
+D:\Data\Code\Invariants\Repos\metrics.net\Src\Metrics\Utils\AtomicLong.cs	Metrics.Utils.AtomicLong.GetAndSet(System.Int64 value)	0.709091	39	16	0.290688
+D:\Data\Code\Invariants\Repos\mongo-csharp-driver\src\MongoDB.Driver.Core\Core\Servers\ServerId.cs	MongoDB.Driver.Core.Servers.ServerId.ToString()	1.000000	83	0	0.999994
+D:\Data\Code\Invariants\Repos\mathnet-numerics\src\Numerics\LinearAlgebra\Storage\DenseColumnMajorMatrixStorage.cs	MathNet.Numerics.LinearAlgebra.Storage.DenseColumnMajorMatrixStorage.At(System.Int32 row, System.Int32 column)	0.979798	97	2	0.115748
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\State.cs	Lucene.Net.Util.Automaton.State.NumTransitions()	0.022727	2	86	0.000325
+D:\Data\Code\Invariants\Repos\mongo-csharp-driver\src\MongoDB.Driver.Core\Core\Connections\BinaryConnection.cs	MongoDB.Driver.Core.Connections.BinaryConnection.Dispose()	0.111111	9	72	0.982189
+D:\Data\Code\Invariants\Repos\mongo-csharp-driver\src\MongoDB.Driver.Core\Core\Connections\BinaryConnection.cs	MongoDB.Driver.Core.Connections.BinaryConnection.Dispose()	1.000000	81	0	0.999991
+D:\Data\Code\Invariants\Repos\mongo-csharp-driver\src\MongoDB.Driver.Core\Core\Connections\BinaryConnection.cs	MongoDB.Driver.Core.Connections.BinaryConnection.Dispose()	1.000000	81	0	0.999998
+D:\Data\Code\Invariants\Repos\mongo-csharp-driver\src\MongoDB.Driver.Core\Core\Connections\BinaryConnection.cs	MongoDB.Driver.Core.Connections.BinaryConnection.Dispose()	1.000000	81	0	0.001498
+D:\Data\Code\Invariants\Repos\mongo-csharp-driver\src\MongoDB.Driver.Core\Core\Connections\BinaryConnection.cs	MongoDB.Driver.Core.Connections.BinaryConnection.Dispose()	0.074074	6	75	0.908369
+D:\Data\Code\Invariants\Repos\mongo-csharp-driver\src\MongoDB.Driver.Core\Core\Connections\BinaryConnection.cs	MongoDB.Driver.Core.Connections.BinaryConnection.Dispose()	0.074074	6	75	0.995183
+D:\Data\Code\Invariants\Repos\mongo-csharp-driver\src\MongoDB.Driver.Core\Core\Connections\BinaryConnection.cs	MongoDB.Driver.Core.Connections.BinaryConnection.Dispose()	1.000000	81	0	0.999996
+D:\Data\Code\Invariants\Repos\metrics.net\Src\Metrics\Core\MeterMetric.cs	Metrics.Core.MeterMetric.Mark()	1.000000	92	0	0.999999
+D:\Data\Code\Invariants\Repos\libgit2sharp\LibGit2Sharp\Network.cs	LibGit2Sharp.Network.Push(LibGit2Sharp.Branch branch)	1.000000	20	0	0.016429
+D:\Data\Code\Invariants\Repos\metrics.net\Src\Metrics\MetricsErrorHandler.cs	Metrics.MetricsErrorHandler.ClearHandlers()	1.000000	18	0	0.996431
+D:\Data\Code\Invariants\Repos\mathnet-numerics\src\Numerics\Distributions\Categorical.cs	MathNet.Numerics.Distributions.Categorical.Sample()	1.000000	10	0	0.714805
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\Automaton.cs	Lucene.Net.Util.Automaton.Automaton.Determinize()	1.000000	88	0	0.999113
+D:\Data\Code\Invariants\Repos\lucenenet\src\Lucene.Net.Core\Util\Automaton\Automaton.cs	Lucene.Net.Util.Automaton.Automaton.Determinize()	1.000000	88	0	0.000093
+D:\Data\Code\Invariants\Repos\metrics.net\Src\Metrics\Utils\EWMA.cs	Metrics.Utils.EWMA.GetRate(Metrics.TimeUnit rateUnit)	0.137931	12	75	0.999727
+D:\Data\Code\Invariants\Repos\metrics.net\Src\Metrics\Utils\EWMA.cs	Metrics.Utils.EWMA.GetRate(Metrics.TimeUnit rateUnit)	0.011494	1	86	0.999521
+D:\Data\Code\Invariants\Repos\metrics.net\Src\Metrics\Utils\EWMA.cs	Metrics.Utils.EWMA.GetRate(Metrics.TimeUnit rateUnit)	1.000000	87	0	0.906714
+testing on 63 samples, acc: 0.762, prec: 0.804, rec: 0.891, -acc: 0.412

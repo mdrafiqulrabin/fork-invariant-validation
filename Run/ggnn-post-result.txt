@@ -1,0 +1,1055 @@
+WARNING: Logging before flag parsing goes to stderr.
+W0813 23:41:11.670248 47379561522048 deprecation_wrapper.py:119] From main.py:10: The name tf.enable_eager_execution is deprecated. Please use tf.compat.v1.enable_eager_execution instead.
+
+main.py:79: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  config = yaml.load(f)
+W0813 23:42:21.248198 47379561522048 deprecation_wrapper.py:119] From /project/alipour/rabin/tool/fork-invariant-validation/GGNN-Discriminator/ggnn.py:33: The name tf.random_normal is deprecated. Please use tf.random.normal instead.
+
+2019-08-13 23:42:21.249643: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-08-13 23:42:21.264769: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2394365000 Hz
+2019-08-13 23:42:21.265032: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55cac5b3ec30 executing computations on platform Host. Devices:
+2019-08-13 23:42:21.265064: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+W0813 23:42:21.331475 47379561522048 deprecation.py:323] From /project/alipour/rabin/tool/fork-invariant-validation/GGNN-Discriminator/ggnn.py:36: GRUCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.GRUCell, and will be replaced by that in Tensorflow 2.0.
+W0813 23:42:21.336472 47379561522048 deprecation_wrapper.py:119] From /project/alipour/rabin/tool/fork-invariant-validation/GGNN-Discriminator/discriminator.py:18: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+W0813 23:42:21.370479 47379561522048 deprecation_wrapper.py:119] From /project/alipour/rabin/tool/fork-invariant-validation/GGNN-Discriminator/ggnn.py:59: The name tf.segment_sum is deprecated. Please use tf.math.segment_sum instead.
+
+W0813 23:42:21.375260 47379561522048 deprecation_wrapper.py:119] From /project/alipour/rabin/tool/fork-invariant-validation/GGNN-Discriminator/ggnn.py:89: The name tf.unsorted_segment_sum is deprecated. Please use tf.math.unsorted_segment_sum instead.
+
+W0813 23:42:21.449394 47379561522048 deprecation_wrapper.py:119] From /project/alipour/rabin/tool/fork-invariant-validation/GGNN-Discriminator/discriminator.py:63: The name tf.segment_mean is deprecated. Please use tf.math.segment_mean instead.
+
+W0813 23:42:21.467512 47379561522048 deprecation.py:323] From /home/mrabin/.local/lib/python3.6/site-packages/tensorflow/python/ops/math_grad.py:318: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+{'loading': {'vocab_cutoff': 2, 'max_graphs': 50, 'max_nodes': 50}, 'model': {'hidden_dim': 128, 'time_steps': [3, 1, 3, 1], 'residuals': {1: [0], 3: [0, 1]}}, 'training': {'max_batch_size': 50, 'max_expansions': 15, 'max_word_length': 10, 'num_epochs': 1, 'learning_rate': 0.001}}
+Loading training
+Loading ../Graphs-Post/dotliquid/DotLiquid-2008-graph.0.gz
+Retrieved 50 graphs
+Total: 50 graphs
+Loading ../Graphs-Post/libgit2sharp/LibGit2Sharp-graph.0.gz
+Retrieved 50 graphs
+Total: 50 graphs
+Loading ../Graphs-Post/logging-log4net/log4net-graph.0.gz
+Retrieved 50 graphs
+Total: 50 graphs
+Loading ../Graphs-Post/lucenenet/Lucene.Net-graph.0.gz
+Retrieved 50 graphs
+Loading ../Graphs-Post/lucenenet/Lucene.Net-graph.1.gz
+Retrieved 50 graphs
+Loading ../Graphs-Post/lucenenet/Lucene.Net-graph.2.gz
+Retrieved 50 graphs
+Total: 150 graphs
+Loading ../Graphs-Post/mathnet-numerics/Examples-graph.0.gz
+Retrieved 50 graphs
+Total: 50 graphs
+Loading ../Graphs-Post/metrics.net/Metrics-graph.0.gz
+Retrieved 50 graphs
+Total: 50 graphs
+Loading ../Graphs-Post/mongo-csharp-driver/CSharpDriver-Mono-graph.0.gz
+Retrieved 50 graphs
+Total: 50 graphs
+Loading ../Graphs-Post/nustache/Nustache-graph.0.gz
+Retrieved 50 graphs
+Total: 50 graphs
+Total: 500 graphs
+Vocab size: 625
+Epoch: 1
+1 graphs processed in 0.103 + 0.319s, loss: 0.853, some samples:
+Real: 0.000	 Discriminator: 0.574, Invariant: m pattern . to string ( ) . equals (  )
+1 graphs processed in 0.043 + 0.226s, loss: 1.276, some samples:
+Real: 1.000	 Discriminator: 0.279, Invariant: numbered states renamed . all ( x => x != null )
+1 graphs processed in 0.036 + 0.118s, loss: 0.413, some samples:
+Real: 0.000	 Discriminator: 0.338, Invariant: shape == 1
+1 graphs processed in 0.035 + 0.117s, loss: 2.178, some samples:
+Real: 1.000	 Discriminator: 0.113, Invariant: m filename . to string ( ) . equals ( <String Literal> )
+1 graphs processed in 0.035 + 0.122s, loss: 0.864, some samples:
+Real: 1.000	 Discriminator: 0.421, Invariant: indenter . caps == null
+1 graphs processed in 0.040 + 0.127s, loss: 0.467, some samples:
+Real: 1.000	 Discriminator: 0.627, Invariant: ret . uncounted . value <= ret . interval
+1 graphs processed in 0.035 + 0.122s, loss: 0.072, some samples:
+Real: 1.000	 Discriminator: 0.930, Invariant: context != null
+1 graphs processed in 0.036 + 0.126s, loss: 0.085, some samples:
+Real: 1.000	 Discriminator: 0.918, Invariant: outer instance . num transitions >= 0
+1 graphs processed in 0.035 + 0.120s, loss: 0.004, some samples:
+Real: 1.000	 Discriminator: 0.996, Invariant: b != null
+1 graphs processed in 0.037 + 0.120s, loss: 5.304, some samples:
+Real: 0.000	 Discriminator: 0.995, Invariant: ret . initial . id >= 1
+1 graphs processed in 0.039 + 0.130s, loss: 5.242, some samples:
+Real: 0.000	 Discriminator: 0.995, Invariant: http listener . m extra saved digests timestamp <= http listener
+1 graphs processed in 0.037 + 0.122s, loss: 0.001, some samples:
+Real: 1.000	 Discriminator: 0.999, Invariant: s2 != null
+1 graphs processed in 0.039 + 0.131s, loss: 0.005, some samples:
+Real: 1.000	 Discriminator: 0.995, Invariant: numbered states renamed . number . count == 2
+1 graphs processed in 0.038 + 0.125s, loss: 6.953, some samples:
+Real: 0.000	 Discriminator: 0.999, Invariant: value != null
+1 graphs processed in 0.040 + 0.129s, loss: 0.002, some samples:
+Real: 1.000	 Discriminator: 0.998, Invariant: result != null
+1 graphs processed in 0.042 + 0.128s, loss: 0.008, some samples:
+Real: 1.000	 Discriminator: 0.992, Invariant: numbered states renamed . num transitions . all ( x => x >= 0 )
+1 graphs processed in 0.035 + 0.119s, loss: 0.018, some samples:
+Real: 1.000	 Discriminator: 0.982, Invariant: w timeout == 10000000
+1 graphs processed in 0.042 + 0.132s, loss: 4.755, some samples:
+Real: 0.000	 Discriminator: 0.991, Invariant: storage . data . all ( x => x == 0 )
+1 graphs processed in 0.039 + 0.125s, loss: 0.013, some samples:
+Real: 1.000	 Discriminator: 0.987, Invariant: ret . numbered states renamed . accept . count == 3
+1 graphs processed in 0.041 + 0.128s, loss: 0.012, some samples:
+Real: 1.000	 Discriminator: 0.988, Invariant: lib git2sharp . filter registration . filter priority max >= ret . filter . next ptr
+1 graphs processed in 0.038 + 0.122s, loss: 4.268, some samples:
+Real: 0.000	 Discriminator: 0.986, Invariant: connection id . local value >= 0
+1 graphs processed in 0.036 + 0.127s, loss: 2.204, some samples:
+Real: 0.000	 Discriminator: 0.890, Invariant: rate >= 1
+1 graphs processed in 0.044 + 0.136s, loss: 0.013, some samples:
+Real: 1.000	 Discriminator: 0.987, Invariant: remote . repository . diff . equals ( repository . diff )
+1 graphs processed in 0.042 + 0.131s, loss: 4.033, some samples:
+Real: 0.000	 Discriminator: 0.982, Invariant: data stack . array . contains ( indenter . factory )
+1 graphs processed in 0.044 + 0.128s, loss: 0.021, some samples:
+Real: 1.000	 Discriminator: 0.979, Invariant: commit . repo . diff . equals ( repo . diff )
+1 graphs processed in 0.035 + 0.132s, loss: 0.101, some samples:
+Real: 1.000	 Discriminator: 0.904, Invariant: ret <= value
+1 graphs processed in 0.039 + 0.125s, loss: 3.975, some samples:
+Real: 0.000	 Discriminator: 0.981, Invariant: exception != null
+1 graphs processed in 0.035 + 0.120s, loss: 3.368, some samples:
+Real: 0.000	 Discriminator: 0.966, Invariant: m provider != null
+1 graphs processed in 0.033 + 0.117s, loss: 3.326, some samples:
+Real: 0.000	 Discriminator: 0.964, Invariant: tokenized renamed == false
+1 graphs processed in 0.034 + 0.118s, loss: 1.007, some samples:
+Real: 0.000	 Discriminator: 0.635, Invariant: data stack >= 0
+1 graphs processed in 0.039 + 0.126s, loss: 0.278, some samples:
+Real: 1.000	 Discriminator: 0.757, Invariant: ret != null
+1 graphs processed in 0.035 + 0.120s, loss: 0.081, some samples:
+Real: 1.000	 Discriminator: 0.922, Invariant: log4net . log manager . s wrapper map != null
+1 graphs processed in 0.035 + 0.120s, loss: 0.087, some samples:
+Real: 1.000	 Discriminator: 0.917, Invariant: indenter . code != null
+1 graphs processed in 0.038 + 0.124s, loss: 2.992, some samples:
+Real: 0.000	 Discriminator: 0.950, Invariant: ret != null
+1 graphs processed in 0.034 + 0.117s, loss: 0.037, some samples:
+Real: 1.000	 Discriminator: 0.963, Invariant: repo . commits != null
+1 graphs processed in 0.035 + 0.119s, loss: 0.334, some samples:
+Real: 1.000	 Discriminator: 0.716, Invariant: to == 0
+1 graphs processed in 0.032 + 0.117s, loss: 0.058, some samples:
+Real: 1.000	 Discriminator: 0.944, Invariant: set meters != null
+1 graphs processed in 0.038 + 0.123s, loss: 4.239, some samples:
+Real: 0.000	 Discriminator: 0.986, Invariant: ret != null
+1 graphs processed in 0.035 + 0.119s, loss: 4.689, some samples:
+Real: 0.000	 Discriminator: 0.991, Invariant: full name . to string ( ) . equals ( <String Literal> )
+1 graphs processed in 0.038 + 0.122s, loss: 0.022, some samples:
+Real: 1.000	 Discriminator: 0.979, Invariant: get method != null
+1 graphs processed in 0.041 + 0.127s, loss: 0.003, some samples:
+Real: 1.000	 Discriminator: 0.997, Invariant: metrics . time unit . minutes != null
+1 graphs processed in 0.037 + 0.123s, loss: 0.017, some samples:
+Real: 1.000	 Discriminator: 0.983, Invariant: default value == null
+1 graphs processed in 0.034 + 0.115s, loss: 0.011, some samples:
+Real: 1.000	 Discriminator: 0.989, Invariant: e == null
+1 graphs processed in 0.035 + 0.118s, loss: 0.002, some samples:
+Real: 1.000	 Discriminator: 0.998, Invariant: dot liquid . template . naming convention != null
+1 graphs processed in 0.041 + 0.128s, loss: 0.006, some samples:
+Real: 1.000	 Discriminator: 0.995, Invariant: metrics . sampling type . favour recent . equals ( sampling type )
+1 graphs processed in 0.039 + 0.129s, loss: 0.001, some samples:
+Real: 1.000	 Discriminator: 0.999, Invariant: state . v a l u e <= settings . max connections
+1 graphs processed in 0.037 + 0.121s, loss: 5.011, some samples:
+Real: 0.000	 Discriminator: 0.993, Invariant: variable name . to string ( ) . equals ( <String Literal> )
+1 graphs processed in 0.037 + 0.123s, loss: 2.827, some samples:
+Real: 0.000	 Discriminator: 0.941, Invariant: scale <= 1
+1 graphs processed in 0.039 + 0.128s, loss: 0.001, some samples:
+Real: 1.000	 Discriminator: 0.999, Invariant: ret . initial . num transitions >= initial . num transitions
+1 graphs processed in 0.035 + 0.123s, loss: 1.559, some samples:
+Real: 0.000	 Discriminator: 0.790, Invariant: ret <= 1
+2 graphs processed in 0.045 + 0.135s, loss: 2.797, some samples:
+Real: 1.000	 Discriminator: 0.956, Invariant: num transitions >= 0
+Real: 0.000	 Discriminator: 0.996, Invariant: allowed members . to string ( ) . count == 2
+1 graphs processed in 0.041 + 0.131s, loss: 0.001, some samples:
+Real: 1.000	 Discriminator: 0.999, Invariant: repo . rebase operation != null
+1 graphs processed in 0.039 + 0.129s, loss: 0.576, some samples:
+Real: 1.000	 Discriminator: 0.562, Invariant: lower >= 0
+1 graphs processed in 0.041 + 0.125s, loss: 1.763, some samples:
+Real: 0.000	 Discriminator: 0.828, Invariant: allowed members . to string ( ) . count == 1
+1 graphs processed in 0.043 + 0.131s, loss: 4.714, some samples:
+Real: 0.000	 Discriminator: 0.991, Invariant: repo . commits . repo >= repo . branches . repo
+1 graphs processed in 0.039 + 0.132s, loss: 0.076, some samples:
+Real: 1.000	 Discriminator: 0.927, Invariant: m level info . m level value >= 0
+1 graphs processed in 0.038 + 0.126s, loss: 0.086, some samples:
+Real: 1.000	 Discriminator: 0.917, Invariant: max == 0
+1 graphs processed in 0.036 + 0.123s, loss: 0.013, some samples:
+Real: 1.000	 Discriminator: 0.987, Invariant: renamed in index != null
+1 graphs processed in 0.040 + 0.129s, loss: 0.034, some samples:
+Real: 1.000	 Discriminator: 0.966, Invariant: context . indenter . capslist == null
+1 graphs processed in 0.040 + 0.129s, loss: 0.059, some samples:
+Real: 1.000	 Discriminator: 0.943, Invariant: s2 . number >= 0
+1 graphs processed in 0.039 + 0.129s, loss: 3.735, some samples:
+Real: 0.000	 Discriminator: 0.976, Invariant: value == 32
+1 graphs processed in 0.037 + 0.121s, loss: 0.055, some samples:
+Real: 1.000	 Discriminator: 0.947, Invariant: numbered states renamed . contains ( initial )
+1 graphs processed in 0.041 + 0.137s, loss: 1.211, some samples:
+Real: 0.000	 Discriminator: 0.702, Invariant: ret . to string ( ) . equals ( <String Literal> )
+1 graphs processed in 0.031 + 0.134s, loss: 0.002, some samples:
+Real: 1.000	 Discriminator: 0.998, Invariant: context . data stack != null
+1 graphs processed in 0.036 + 0.120s, loss: 0.002, some samples:
+Real: 1.000	 Discriminator: 0.998, Invariant: context . include level >= 0
+1 graphs processed in 0.034 + 0.118s, loss: 0.001, some samples:
+Real: 1.000	 Discriminator: 0.999, Invariant: s == null
+1 graphs processed in 0.035 + 0.120s, loss: 0.005, some samples:
+Real: 1.000	 Discriminator: 0.995, Invariant: pos >= exp1 . c
+1 graphs processed in 0.039 + 0.123s, loss: 6.643, some samples:
+Real: 0.000	 Discriminator: 0.999, Invariant: commit >= 0
+1 graphs processed in 0.038 + 0.125s, loss: 0.008, some samples:
+Real: 1.000	 Discriminator: 0.992, Invariant: settings . max server selection wait queue size >= server selection wait queue size
+1 graphs processed in 0.035 + 0.120s, loss: 5.841, some samples:
+Real: 0.000	 Discriminator: 0.997, Invariant: start time == 0
+1 graphs processed in 0.040 + 0.124s, loss: 4.582, some samples:
+Real: 0.000	 Discriminator: 0.990, Invariant: ret . cluster id . v a l u e >= 0
+1 graphs processed in 0.037 + 0.123s, loss: 0.326, some samples:
+Real: 0.000	 Discriminator: 0.278, Invariant: template name . to string ( ) . equals ( <String Literal> )
+1 graphs processed in 0.036 + 0.120s, loss: 2.198, some samples:
+Real: 0.000	 Discriminator: 0.889, Invariant: stack size <= min run renamed
+1 graphs processed in 0.037 + 0.120s, loss: 0.012, some samples:
+Real: 1.000	 Discriminator: 0.989, Invariant: context . section stack . version <= context . indenter . internal match timeout
+1 graphs processed in 0.035 + 0.122s, loss: 0.913, some samples:
+Real: 0.000	 Discriminator: 0.599, Invariant: last used at utc <= connection id
+1 graphs processed in 0.040 + 0.124s, loss: 0.093, some samples:
+Real: 1.000	 Discriminator: 0.912, Invariant: ret . initial . number <= ret . initial . id
+1 graphs processed in 0.034 + 0.117s, loss: 0.040, some samples:
+Real: 1.000	 Discriminator: 0.961, Invariant: ret != null
+1 graphs processed in 0.035 + 0.119s, loss: 0.852, some samples:
+Real: 0.000	 Discriminator: 0.573, Invariant: shape a >= 0
+1 graphs processed in 0.038 + 0.126s, loss: 0.089, some samples:
+Real: 1.000	 Discriminator: 0.915, Invariant: ret . numbered states renamed . count == 2
+1 graphs processed in 0.035 + 0.118s, loss: 0.002, some samples:
+Real: 1.000	 Discriminator: 0.998, Invariant: repo . handle != null
+1 graphs processed in 0.034 + 0.117s, loss: 2.278, some samples:
+Real: 0.000	 Discriminator: 0.897, Invariant: state . number <= 16
+1 graphs processed in 0.035 + 0.119s, loss: 1.307, some samples:
+Real: 1.000	 Discriminator: 0.271, Invariant: digits == 0
+1 graphs processed in 0.035 + 0.120s, loss: 1.221, some samples:
+Real: 1.000	 Discriminator: 0.295, Invariant: ret >= digits
+1 graphs processed in 0.041 + 0.125s, loss: 4.646, some samples:
+Real: 0.000	 Discriminator: 0.990, Invariant: ends . transitions . count == 2
+1 graphs processed in 0.040 + 0.128s, loss: 0.001, some samples:
+Real: 1.000	 Discriminator: 0.999, Invariant: metrics . unit . events != null
+1 graphs processed in 0.042 + 0.130s, loss: 5.030, some samples:
+Real: 0.000	 Discriminator: 0.993, Invariant: log event . m data . logger name <= m appender lock . m l o c k
+1 graphs processed in 0.039 + 0.123s, loss: 0.148, some samples:
+Real: 0.000	 Discriminator: 0.138, Invariant: connection id >= 0
+1 graphs processed in 0.038 + 0.123s, loss: 3.908, some samples:
+Real: 0.000	 Discriminator: 0.980, Invariant: ret . uncounted . value <= ret
+1 graphs processed in 0.040 + 0.127s, loss: 0.006, some samples:
+Real: 1.000	 Discriminator: 0.994, Invariant: ret . b == null
+1 graphs processed in 0.035 + 0.118s, loss: 0.034, some samples:
+Real: 1.000	 Discriminator: 0.966, Invariant: ret == value . value
+1 graphs processed in 0.040 + 0.126s, loss: 0.172, some samples:
+Real: 0.000	 Discriminator: 0.158, Invariant: allowed members . to string ( ) . count == 2
+1 graphs processed in 0.038 + 0.123s, loss: 0.324, some samples:
+Real: 0.000	 Discriminator: 0.277, Invariant: conflicted >= 0
+1 graphs processed in 0.035 + 0.120s, loss: 0.006, some samples:
+Real: 1.000	 Discriminator: 0.994, Invariant: repo . index != null
+1 graphs processed in 0.038 + 0.126s, loss: 0.076, some samples:
+Real: 0.000	 Discriminator: 0.074, Invariant: s1 . id >= 1
+1 graphs processed in 0.034 + 0.118s, loss: 2.484, some samples:
+Real: 1.000	 Discriminator: 0.083, Invariant: ret >= 0
+1 graphs processed in 0.033 + 0.116s, loss: 0.008, some samples:
+Real: 1.000	 Discriminator: 0.992, Invariant: proxied object != null
+1 graphs processed in 0.040 + 0.128s, loss: 0.091, some samples:
+Real: 0.000	 Discriminator: 0.087, Invariant: data stack . array . contains ( section stack . sync root )
+1 graphs processed in 0.036 + 0.121s, loss: 0.424, some samples:
+Real: 0.000	 Discriminator: 0.345, Invariant: ret <= x
+1 graphs processed in 0.035 + 0.120s, loss: 0.038, some samples:
+Real: 0.000	 Discriminator: 0.037, Invariant: ret <= 1000
+1 graphs processed in 0.036 + 0.121s, loss: 0.023, some samples:
+Real: 0.000	 Discriminator: 0.023, Invariant: values . all ( x => x >= 1 )
+1 graphs processed in 0.040 + 0.127s, loss: 0.023, some samples:
+Real: 0.000	 Discriminator: 0.023, Invariant: a . initial . number <= initial . id
+1 graphs processed in 0.040 + 0.126s, loss: 0.041, some samples:
+Real: 1.000	 Discriminator: 0.960, Invariant: repo . submodules != null
+1 graphs processed in 0.035 + 0.115s, loss: 7.030, some samples:
+Real: 1.000	 Discriminator: 0.001, Invariant: tokenized renamed == true
+1 graphs processed in 0.039 + 0.124s, loss: 0.001, some samples:
+Real: 0.000	 Discriminator: 0.001, Invariant: metrics . unit . commands >= 0
+1 graphs processed in 0.038 + 0.124s, loss: 0.001, some samples:
+Real: 0.000	 Discriminator: 0.001, Invariant: ret == 0
+1 graphs processed in 0.035 + 0.119s, loss: 0.000, some samples:
+Real: 0.000	 Discriminator: 0.000, Invariant: state . transitions array >= state . id
+1 graphs processed in 0.038 + 0.123s, loss: 10.272, some samples:
+Real: 1.000	 Discriminator: 0.000, Invariant: ret . initial . id >= min
+1 graphs processed in 0.033 + 0.123s, loss: 0.000, some samples:
+Real: 0.000	 Discriminator: 0.000, Invariant: values >= 0
+1 graphs processed in 0.041 + 0.129s, loss: -0.000, some samples:
+Real: 0.000	 Discriminator: 0.000, Invariant: data stack . array . contains ( data stack . sync root )
+1 graphs processed in 0.048 + 0.135s, loss: 9.181, some samples:
+Real: 1.000	 Discriminator: 0.000, Invariant: remote . repository . branches . equals ( repository . branches )
+1 graphs processed in 0.037 + 0.125s, loss: 0.000, some samples:
+Real: 1.000	 Discriminator: 0.999, Invariant: name != null
+1 graphs processed in 0.040 + 0.128s, loss: 3.924, some samples:
+Real: 1.000	 Discriminator: 0.020, Invariant: m level fatal . m level value >= m level error . m level value
+1 graphs processed in 0.035 + 0.118s, loss: 4.938, some samples:
+Real: 1.000	 Discriminator: 0.007, Invariant: indenter . internal match timeout >= 0
+1 graphs processed in 0.035 + 0.118s, loss: 0.000, some samples:
+Real: 1.000	 Discriminator: 1.000, Invariant: database namespace != null
+1 graphs processed in 0.039 + 0.125s, loss: 0.001, some samples:
+Real: 0.000	 Discriminator: 0.001, Invariant: ret . equals ( complex )
+1 graphs processed in 0.042 + 0.128s, loss: 0.001, some samples:
+Real: 0.000	 Discriminator: 0.001, Invariant: def value . to string ( ) . equals ( <String Literal> )
+1 graphs processed in 0.038 + 0.125s, loss: 0.094, some samples:
+Real: 0.000	 Discriminator: 0.089, Invariant: initial . number == 0
+1 graphs processed in 0.039 + 0.127s, loss: 0.121, some samples:
+Real: 0.000	 Discriminator: 0.114, Invariant: context . data stack . array . count == 4
+1 graphs processed in 0.039 + 0.124s, loss: 0.001, some samples:
+Real: 1.000	 Discriminator: 0.999, Invariant: repo . refs != null
+1 graphs processed in 0.038 + 0.123s, loss: 1.687, some samples:
+Real: 1.000	 Discriminator: 0.185, Invariant: settings . max server selection wait queue size >= 0
+1 graphs processed in 0.038 + 0.123s, loss: 0.011, some samples:
+Real: 0.000	 Discriminator: 0.011, Invariant: m cur size roll backups >= m count direction
+1 graphs processed in 0.040 + 0.134s, loss: 0.013, some samples:
+Real: 0.000	 Discriminator: 0.013, Invariant: state . v a l u e <= cluster id . v a l u e
+1 graphs processed in 0.044 + 0.128s, loss: 4.151, some samples:
+Real: 1.000	 Discriminator: 0.016, Invariant: target . repo . stashes . equals ( repo . stashes )
+1 graphs processed in 0.039 + 0.121s, loss: 0.008, some samples:
+Real: 1.000	 Discriminator: 0.992, Invariant: tag name == null
+1 graphs processed in 0.035 + 0.118s, loss: 0.267, some samples:
+Real: 1.000	 Discriminator: 0.766, Invariant: ret == true
+1 graphs processed in 0.038 + 0.125s, loss: 0.000, some samples:
+Real: 0.000	 Discriminator: 0.000, Invariant: value == 1
+1 graphs processed in 0.035 + 0.124s, loss: 0.000, some samples:
+Real: 1.000	 Discriminator: 1.000, Invariant: renamed in work dir != null
+1 graphs processed in 0.034 + 0.122s, loss: 0.001, some samples:
+Real: 1.000	 Discriminator: 0.999, Invariant: m evaluator == null
+1 graphs processed in 0.034 + 0.123s, loss: 5.119, some samples:
+Real: 1.000	 Discriminator: 0.006, Invariant: min == 0
+1 graphs processed in 0.036 + 0.121s, loss: 0.000, some samples:
+Real: 1.000	 Discriminator: 1.000, Invariant: logger != null
+2 graphs processed in 0.044 + 0.133s, loss: 0.196, some samples:
+Real: 1.000	 Discriminator: 0.675, Invariant: transitions array . max renamed . all ( x => x != null )
+Real: 1.000	 Discriminator: 1.000, Invariant: health status != null
+1 graphs processed in 0.036 + 0.127s, loss: 0.007, some samples:
+Real: 1.000	 Discriminator: 0.993, Invariant: server id . cluster id != null
+1 graphs processed in 0.036 + 0.119s, loss: 0.000, some samples:
+Real: 1.000	 Discriminator: 1.000, Invariant: obj != null
+1 graphs processed in 0.035 + 0.118s, loss: 0.785, some samples:
+Real: 0.000	 Discriminator: 0.544, Invariant: pivot tolerance >= 0
+1 graphs processed in 0.038 + 0.122s, loss: 0.502, some samples:
+Real: 1.000	 Discriminator: 0.605, Invariant: section stack . version >= section stack . size
+1 graphs processed in 0.040 + 0.130s, loss: 0.483, some samples:
+Real: 1.000	 Discriminator: 0.617, Invariant: s1 . num transitions <= s1 . id
+1 graphs processed in 0.040 + 0.135s, loss: 10.913, some samples:
+Real: 0.000	 Discriminator: 1.000, Invariant: wait queue != null
+1 graphs processed in 0.036 + 0.120s, loss: 0.811, some samples:
+Real: 0.000	 Discriminator: 0.556, Invariant: ret >= 0
+1 graphs processed in 0.033 + 0.118s, loss: 0.011, some samples:
+Real: 0.000	 Discriminator: 0.011, Invariant: num transitions <= 1
+1 graphs processed in 0.040 + 0.129s, loss: 1.992, some samples:
+Real: 1.000	 Discriminator: 0.136, Invariant: s . to string ( ) . equals ( <String Literal> )
+1 graphs processed in 0.039 + 0.122s, loss: 3.784, some samples:
+Real: 1.000	 Discriminator: 0.023, Invariant: lambda == 1
+1 graphs processed in 0.040 + 0.127s, loss: 0.000, some samples:
+Real: 1.000	 Discriminator: 1.000, Invariant: other . repo . commits != null
+1 graphs processed in 0.041 + 0.129s, loss: 0.000, some samples:
+Real: 1.000	 Discriminator: 1.000, Invariant: metrics . time unit . microseconds != null
+1 graphs processed in 0.042 + 0.131s, loss: 0.118, some samples:
+Real: 1.000	 Discriminator: 0.889, Invariant: committish . to string ( ) . equals ( <String Literal> )
+1 graphs processed in 0.036 + 0.119s, loss: 0.000, some samples:
+Real: 1.000	 Discriminator: 1.000, Invariant: system config path == null
+1 graphs processed in 0.034 + 0.117s, loss: 1.563, some samples:
+Real: 0.000	 Discriminator: 0.791, Invariant: ret . index to work dir ptr <= 0
+1 graphs processed in 0.039 + 0.128s, loss: 0.003, some samples:
+Real: 1.000	 Discriminator: 0.997, Invariant: a . numbered states renamed . count == 3
+1 graphs processed in 0.035 + 0.118s, loss: 0.000, some samples:
+Real: 1.000	 Discriminator: 1.000, Invariant: registers . nested dictionary != null
+1 graphs processed in 0.038 + 0.128s, loss: 0.018, some samples:
+Real: 1.000	 Discriminator: 0.982, Invariant: ret . initial . id <= flags
+1 graphs processed in 0.040 + 0.126s, loss: 0.251, some samples:
+Real: 1.000	 Discriminator: 0.778, Invariant: ret <= shape
+1 graphs processed in 0.038 + 0.130s, loss: 0.000, some samples:
+Real: 1.000	 Discriminator: 1.000, Invariant: description . servers != null
+1 graphs processed in 0.043 + 0.128s, loss: 8.233, some samples:
+Real: 0.000	 Discriminator: 1.000, Invariant: element . next . equals ( element . last child . parent node )
+1 graphs processed in 0.041 + 0.125s, loss: 8.045, some samples:
+Real: 0.000	 Discriminator: 1.000, Invariant: section stack . array . contains ( section stack . sync root )
+1 graphs processed in 0.040 + 0.129s, loss: 0.001, some samples:
+Real: 1.000	 Discriminator: 0.999, Invariant: settings . max connections <= settings . maintenance interval
+1 graphs processed in 0.034 + 0.116s, loss: 0.000, some samples:
+Real: 1.000	 Discriminator: 1.000, Invariant: transitions array != null
+1 graphs processed in 0.033 + 0.118s, loss: 0.000, some samples:
+Real: 1.000	 Discriminator: 1.000, Invariant: exp1 == null
+1 graphs processed in 0.033 + 0.118s, loss: 0.000, some samples:
+Real: 1.000	 Discriminator: 1.000, Invariant: default value == null
+1 graphs processed in 0.035 + 0.118s, loss: 0.000, some samples:
+Real: 1.000	 Discriminator: 1.000, Invariant: m stream == null
+1 graphs processed in 0.036 + 0.120s, loss: 0.001, some samples:
+Real: 1.000	 Discriminator: 0.999, Invariant: database namespace . database name != null
+1 graphs processed in 0.035 + 0.120s, loss: 0.094, some samples:
+Real: 1.000	 Discriminator: 0.911, Invariant: indenter . internal match timeout >= 0
+1 graphs processed in 0.039 + 0.126s, loss: 4.993, some samples:
+Real: 0.000	 Discriminator: 0.993, Invariant: ret <= value
+1 graphs processed in 0.038 + 0.126s, loss: 3.488, some samples:
+Real: 0.000	 Discriminator: 0.969, Invariant: value >= 64
+1 graphs processed in 0.036 + 0.128s, loss: 0.028, some samples:
+Real: 1.000	 Discriminator: 0.972, Invariant: start time == 0
+1 graphs processed in 0.041 + 0.126s, loss: 0.002, some samples:
+Real: 1.000	 Discriminator: 0.998, Invariant: dot liquid . variable . filter parser != null
+1 graphs processed in 0.039 + 0.125s, loss: 0.002, some samples:
+Real: 1.000	 Discriminator: 0.998, Invariant: uncounted != null
+1 graphs processed in 0.036 + 0.120s, loss: 0.004, some samples:
+Real: 1.000	 Discriminator: 0.996, Invariant: description != null
+1 graphs processed in 0.038 + 0.124s, loss: 0.003, some samples:
+Real: 1.000	 Discriminator: 0.997, Invariant: repo . config != null
+1 graphs processed in 0.035 + 0.118s, loss: 0.091, some samples:
+Real: 1.000	 Discriminator: 0.913, Invariant: pos >= min
+1 graphs processed in 0.035 + 0.120s, loss: 0.003, some samples:
+Real: 1.000	 Discriminator: 0.997, Invariant: parameter . m precision == 0
+1 graphs processed in 0.035 + 0.118s, loss: 0.001, some samples:
+Real: 1.000	 Discriminator: 0.999, Invariant: ret . singleton == null
+1 graphs processed in 0.042 + 0.126s, loss: 5.231, some samples:
+Real: 0.000	 Discriminator: 0.995, Invariant: numbered states renamed . id . all ( x => x >= 1 )
+1 graphs processed in 0.039 + 0.126s, loss: 0.001, some samples:
+Real: 1.000	 Discriminator: 0.999, Invariant: a . numbered states renamed . id . count == 3
+1 graphs processed in 0.036 + 0.120s, loss: 0.004, some samples:
+Real: 1.000	 Discriminator: 0.996, Invariant: initial . num transitions <= initial . id
+1 graphs processed in 0.039 + 0.123s, loss: 0.000, some samples:
+Real: 1.000	 Discriminator: 1.000, Invariant: m level == null
+1 graphs processed in 0.038 + 0.123s, loss: 0.000, some samples:
+Real: 1.000	 Discriminator: 1.000, Invariant: context . render context behaviour != null
+1 graphs processed in 0.041 + 0.130s, loss: 0.003, some samples:
+Real: 1.000	 Discriminator: 0.997, Invariant: m level fatal . m level name . equals ( m level fatal . m level display name )
+1 graphs processed in 0.036 + 0.120s, loss: 0.001, some samples:
+Real: 1.000	 Discriminator: 0.999, Invariant: to == 0
+1 graphs processed in 0.042 + 0.131s, loss: 0.005, some samples:
+Real: 1.000	 Discriminator: 0.995, Invariant: a . numbered states renamed . id . all ( x => x >= #IntLiteral )
+1 graphs processed in 0.041 + 0.125s, loss: 0.000, some samples:
+Real: 1.000	 Discriminator: 1.000, Invariant: ret . repo . stashes != null
+1 graphs processed in 0.040 + 0.123s, loss: 0.012, some samples:
+Real: 1.000	 Discriminator: 0.988, Invariant: numbered states renamed . number . all ( x => x <= 1 )
+1 graphs processed in 0.038 + 0.125s, loss: 0.000, some samples:
+Real: 1.000	 Discriminator: 1.000, Invariant: s1 . transitions array != null
+1 graphs processed in 0.038 + 0.128s, loss: 0.000, some samples:
+Real: 1.000	 Discriminator: 1.000, Invariant: repository . index != null
+1 graphs processed in 0.039 + 0.135s, loss: 0.001, some samples:
+Real: 1.000	 Discriminator: 0.999, Invariant: ret . initial . id >= max
+1 graphs processed in 0.041 + 0.131s, loss: 5.461, some samples:
+Real: 0.000	 Discriminator: 0.996, Invariant: value <= 1000000000
+1 graphs processed in 0.041 + 0.130s, loss: 0.003, some samples:
+Real: 1.000	 Discriminator: 0.997, Invariant: pmf normalized . all ( x => x >= 0 )
+1 graphs processed in 0.037 + 0.126s, loss: 0.000, some samples:
+Real: 1.000	 Discriminator: 1.000, Invariant: ret != null
+1 graphs processed in 0.037 + 0.127s, loss: 7.029, some samples:
+Real: 0.000	 Discriminator: 0.999, Invariant: complex . m imaginary <= 0
+1 graphs processed in 0.040 + 0.125s, loss: 0.000, some samples:
+Real: 1.000	 Discriminator: 1.000, Invariant: remote . repository . diff != null
+1 graphs processed in 0.038 + 0.123s, loss: 0.002, some samples:
+Real: 1.000	 Discriminator: 0.998, Invariant: section stack . version <= indenter . internal match timeout
+1 graphs processed in 0.034 + 0.117s, loss: 0.000, some samples:
+Real: 1.000	 Discriminator: 1.000, Invariant: indenter . runnerref != null
+1 graphs processed in 0.035 + 0.117s, loss: 3.056, some samples:
+Real: 0.000	 Discriminator: 0.953, Invariant: ret <= 0
+1 graphs processed in 0.041 + 0.127s, loss: 4.704, some samples:
+Real: 0.000	 Discriminator: 0.991, Invariant: repository configuration file location . to string ( ) . equals ( <String Literal> )
+1 graphs processed in 0.036 + 0.119s, loss: 2.250, some samples:
+Real: 0.000	 Discriminator: 0.895, Invariant: location <= - 1
+1 graphs processed in 0.038 + 0.123s, loss: 2.514, some samples:
+Real: 0.000	 Discriminator: 0.919, Invariant: markup . to string ( ) . equals ( <String Literal> )
+1 graphs processed in 0.038 + 0.123s, loss: 0.004, some samples:
+Real: 1.000	 Discriminator: 0.996, Invariant: lib git2sharp . diff . changes builders != null
+1 graphs processed in 0.038 + 0.123s, loss: 0.050, some samples:
+Real: 1.000	 Discriminator: 0.951, Invariant: ret . initial . id >= initial . num transitions
+1 graphs processed in 0.037 + 0.122s, loss: 0.006, some samples:
+Real: 1.000	 Discriminator: 0.994, Invariant: state != null
+1 graphs processed in 0.036 + 0.121s, loss: 0.051, some samples:
+Real: 1.000	 Discriminator: 0.950, Invariant: context . section stack . size <= context . indenter . internal match timeout
+1 graphs processed in 0.040 + 0.124s, loss: 0.274, some samples:
+Real: 0.000	 Discriminator: 0.239, Invariant: full name . to string ( ) . equals ( <String Literal> )
+1 graphs processed in 0.036 + 0.121s, loss: 0.003, some samples:
+Real: 1.000	 Discriminator: 0.997, Invariant: repo . handle != null
+1 graphs processed in 0.039 + 0.122s, loss: 2.441, some samples:
+Real: 0.000	 Discriminator: 0.913, Invariant: s . transitions array . count == 1
+1 graphs processed in 0.036 + 0.116s, loss: 0.049, some samples:
+Real: 0.000	 Discriminator: 0.048, Invariant: freedom <= 1
+1 graphs processed in 0.034 + 0.113s, loss: 0.008, some samples:
+Real: 1.000	 Discriminator: 0.992, Invariant: info == null
+1 graphs processed in 0.040 + 0.122s, loss: 0.017, some samples:
+Real: 1.000	 Discriminator: 0.983, Invariant: context . section stack . version <= context . indenter . internal match timeout
+1 graphs processed in 0.033 + 0.124s, loss: 2.004, some samples:
+Real: 1.000	 Discriminator: 0.135, Invariant: from == 0
+1 graphs processed in 0.040 + 0.128s, loss: 0.001, some samples:
+Real: 1.000	 Discriminator: 0.999, Invariant: background task cancellation token != null
+1 graphs processed in 0.042 + 0.123s, loss: 1.412, some samples:
+Real: 0.000	 Discriminator: 0.756, Invariant: point <= starts . transitions
+1 graphs processed in 0.036 + 0.122s, loss: 0.000, some samples:
+Real: 1.000	 Discriminator: 1.000, Invariant: context . strainer != null
+1 graphs processed in 0.038 + 0.122s, loss: 2.140, some samples:
+Real: 0.000	 Discriminator: 0.882, Invariant: ret . mean >= 0
+1 graphs processed in 0.035 + 0.116s, loss: 0.004, some samples:
+Real: 0.000	 Discriminator: 0.004, Invariant: name . to string ( ) . equals ( <String Literal> )
+1 graphs processed in 0.035 + 0.122s, loss: 0.242, some samples:
+Real: 1.000	 Discriminator: 0.785, Invariant: are buckets sorted == false
+1 graphs processed in 0.036 + 0.121s, loss: 0.000, some samples:
+Real: 1.000	 Discriminator: 1.000, Invariant: rate unit != null
+1 graphs processed in 0.043 + 0.130s, loss: 0.416, some samples:
+Real: 0.000	 Discriminator: 0.340, Invariant: integers . sign . all ( x => x <= 1000 )
+1 graphs processed in 0.037 + 0.127s, loss: 1.880, some samples:
+Real: 0.000	 Discriminator: 0.847, Invariant: uncounted . value >= rate . value
+1 graphs processed in 0.042 + 0.127s, loss: 0.950, some samples:
+Real: 0.000	 Discriminator: 0.613, Invariant: context . data stack . array . contains ( context . indenter . capslist )
+1 graphs processed in 0.038 + 0.124s, loss: 1.952, some samples:
+Real: 1.000	 Discriminator: 0.142, Invariant: indenter . capsize <= data stack . size
+1 graphs processed in 0.040 + 0.127s, loss: 0.086, some samples:
+Real: 1.000	 Discriminator: 0.918, Invariant: dot liquid . block . is tag != null
+1 graphs processed in 0.039 + 0.123s, loss: 0.012, some samples:
+Real: 0.000	 Discriminator: 0.012, Invariant: transitions array . min renamed . all ( x => x == 0 )
+1 graphs processed in 0.035 + 0.117s, loss: 1.370, some samples:
+Real: 0.000	 Discriminator: 0.746, Invariant: ret == false
+1 graphs processed in 0.035 + 0.118s, loss: 4.450, some samples:
+Real: 0.000	 Discriminator: 0.988, Invariant: m command text != null
+1 graphs processed in 0.040 + 0.131s, loss: 4.850, some samples:
+Real: 1.000	 Discriminator: 0.008, Invariant: method . m parameters . all ( x => x != null )
+1 graphs processed in 0.042 + 0.139s, loss: 0.000, some samples:
+Real: 0.000	 Discriminator: 0.000, Invariant: row <= column count
+1 graphs processed in 0.034 + 0.122s, loss: 0.000, some samples:
+Real: 0.000	 Discriminator: 0.000, Invariant: id >= 0
+1 graphs processed in 0.036 + 0.127s, loss: 8.430, some samples:
+Real: 1.000	 Discriminator: 0.000, Invariant: pos <= flags
+1 graphs processed in 0.036 + 0.120s, loss: 0.001, some samples:
+Real: 0.000	 Discriminator: 0.001, Invariant: parameter . m scale <= m command text
+1 graphs processed in 0.035 + 0.120s, loss: 5.644, some samples:
+Real: 1.000	 Discriminator: 0.004, Invariant: data stack . version >= 0
+1 graphs processed in 0.036 + 0.133s, loss: 0.010, some samples:
+Real: 0.000	 Discriminator: 0.010, Invariant: instance assigns . nested dictionary >= 0
+1 graphs processed in 0.040 + 0.131s, loss: 0.001, some samples:
+Real: 0.000	 Discriminator: 0.001, Invariant: right >= 0
+1 graphs processed in 0.035 + 0.122s, loss: 0.001, some samples:
+Real: 0.000	 Discriminator: 0.001, Invariant: ret <= values
+1 graphs processed in 0.039 + 0.130s, loss: 0.695, some samples:
+Real: 1.000	 Discriminator: 0.499, Invariant: ret != null
+1 graphs processed in 0.040 + 0.133s, loss: 0.200, some samples:
+Real: 1.000	 Discriminator: 0.819, Invariant: data stack . sync root == null
+1 graphs processed in 0.043 + 0.132s, loss: 0.003, some samples:
+Real: 0.000	 Discriminator: 0.003, Invariant: unit . name . to string ( ) . equals ( <String Literal> )
+1 graphs processed in 0.042 + 0.128s, loss: 0.153, some samples:
+Real: 0.000	 Discriminator: 0.142, Invariant: context . data stack . array . contains ( context . data stack . sync root )
+1 graphs processed in 0.040 + 0.126s, loss: 0.002, some samples:
+Real: 0.000	 Discriminator: 0.002, Invariant: method . to string ( ) . equals ( <String Literal> )
+1 graphs processed in 0.035 + 0.119s, loss: 0.003, some samples:
+Real: 1.000	 Discriminator: 0.997, Invariant: method != null
+1 graphs processed in 0.040 + 0.127s, loss: 2.075, some samples:
+Real: 1.000	 Discriminator: 0.126, Invariant: ret . max == 0
+1 graphs processed in 0.041 + 0.128s, loss: 0.006, some samples:
+Real: 0.000	 Discriminator: 0.006, Invariant: values . all ( x => x >= 1 )
+1 graphs processed in 0.039 + 0.126s, loss: 0.025, some samples:
+Real: 1.000	 Discriminator: 0.975, Invariant: ret . cluster id != null
+1 graphs processed in 0.040 + 0.134s, loss: 0.001, some samples:
+Real: 0.000	 Discriminator: 0.001, Invariant: name . to string ( ) . equals ( <String Literal> )
+1 graphs processed in 0.037 + 0.122s, loss: 0.001, some samples:
+Real: 1.000	 Discriminator: 0.999, Invariant: info == null
+1 graphs processed in 0.038 + 0.123s, loss: 7.449, some samples:
+Real: 0.000	 Discriminator: 0.999, Invariant: values != null
+1 graphs processed in 0.039 + 0.124s, loss: 0.243, some samples:
+Real: 1.000	 Discriminator: 0.784, Invariant: count == 0
+1 graphs processed in 0.037 + 0.123s, loss: 1.120, some samples:
+Real: 1.000	 Discriminator: 0.326, Invariant: m stream . m read total == - 1
+1 graphs processed in 0.038 + 0.123s, loss: 2.406, some samples:
+Real: 1.000	 Discriminator: 0.090, Invariant: scale <= freedom
+1 graphs processed in 0.039 + 0.128s, loss: 4.107, some samples:
+Real: 0.000	 Discriminator: 0.984, Invariant: ret . storage . row pointers . count == 11
+1 graphs processed in 0.040 + 0.125s, loss: 1.670, some samples:
+Real: 0.000	 Discriminator: 0.812, Invariant: ret . numbered states renamed . id . all ( x => x == #IntLiteral )
+1 graphs processed in 0.034 + 0.122s, loss: 0.001, some samples:
+Real: 1.000	 Discriminator: 0.999, Invariant: context . strainer == null
+1 graphs processed in 0.042 + 0.129s, loss: 1.076, some samples:
+Real: 1.000	 Discriminator: 0.341, Invariant: ret . numbered states renamed . number . all ( x => x >= #IntLiteral )
+1 graphs processed in 0.036 + 0.123s, loss: 0.729, some samples:
+Real: 1.000	 Discriminator: 0.482, Invariant: data stack . size >= 1
+1 graphs processed in 0.038 + 0.121s, loss: 0.000, some samples:
+Real: 1.000	 Discriminator: 1.000, Invariant: unit != null
+1 graphs processed in 0.039 + 0.124s, loss: 7.068, some samples:
+Real: 0.000	 Discriminator: 0.999, Invariant: repo . notes != null
+1 graphs processed in 0.039 + 0.125s, loss: 2.688, some samples:
+Real: 1.000	 Discriminator: 0.068, Invariant: email . to string ( ) . equals ( <String Literal> )
+1 graphs processed in 0.035 + 0.120s, loss: 6.157, some samples:
+Real: 0.000	 Discriminator: 0.998, Invariant: m connection string != null
+1 graphs processed in 0.043 + 0.129s, loss: 0.007, some samples:
+Real: 1.000	 Discriminator: 0.993, Invariant: metrics . time unit . seconds != null
+1 graphs processed in 0.040 + 0.124s, loss: 6.361, some samples:
+Real: 0.000	 Discriminator: 0.998, Invariant: m tail filter == null
+1 graphs processed in 0.038 + 0.123s, loss: 0.465, some samples:
+Real: 0.000	 Discriminator: 0.372, Invariant: m cur size roll backups >= 1
+1 graphs processed in 0.040 + 0.125s, loss: 2.833, some samples:
+Real: 0.000	 Discriminator: 0.941, Invariant: starts . transitions >= point
+1 graphs processed in 0.044 + 0.129s, loss: 0.364, some samples:
+Real: 1.000	 Discriminator: 0.695, Invariant: locks . to string ( ) . all ( x => x . equals ( <String Literal> ) )
+1 graphs processed in 0.034 + 0.119s, loss: 0.073, some samples:
+Real: 1.000	 Discriminator: 0.930, Invariant: max message size >= max batch count
+1 graphs processed in 0.036 + 0.138s, loss: 2.020, some samples:
+Real: 0.000	 Discriminator: 0.867, Invariant: handle >= 0
+1 graphs processed in 0.039 + 0.125s, loss: 0.055, some samples:
+Real: 1.000	 Discriminator: 0.946, Invariant: exception != null
+1 graphs processed in 0.039 + 0.124s, loss: 1.222, some samples:
+Real: 0.000	 Discriminator: 0.705, Invariant: path case >= 0
+1 graphs processed in 0.036 + 0.120s, loss: 0.050, some samples:
+Real: 1.000	 Discriminator: 0.951, Invariant: numbered states renamed . number . count == 2
+1 graphs processed in 0.040 + 0.126s, loss: 0.025, some samples:
+Real: 1.000	 Discriminator: 0.975, Invariant: name != null
+1 graphs processed in 0.039 + 0.125s, loss: 1.601, some samples:
+Real: 1.000	 Discriminator: 0.202, Invariant: j >= 1
+1 graphs processed in 0.042 + 0.128s, loss: 2.268, some samples:
+Real: 0.000	 Discriminator: 0.897, Invariant: starts . transitions . count == 2
+1 graphs processed in 0.035 + 0.120s, loss: 0.119, some samples:
+Real: 1.000	 Discriminator: 0.888, Invariant: data stack . version >= 1
+1 graphs processed in 0.040 + 0.125s, loss: 0.034, some samples:
+Real: 1.000	 Discriminator: 0.967, Invariant: ret . repo . is bare == false
+1 graphs processed in 0.042 + 0.125s, loss: 3.794, some samples:
+Real: 0.000	 Discriminator: 0.978, Invariant: numbered states renamed . id . all ( x => x >= 0 )
+1 graphs processed in 0.039 + 0.124s, loss: 2.993, some samples:
+Real: 0.000	 Discriminator: 0.950, Invariant: m command text . to string ( ) . equals ( <String Literal> )
+1 graphs processed in 0.035 + 0.121s, loss: 4.493, some samples:
+Real: 0.000	 Discriminator: 0.989, Invariant: line ended == true
+1 graphs processed in 0.039 + 0.123s, loss: 0.003, some samples:
+Real: 1.000	 Discriminator: 0.997, Invariant: parts != null
+1 graphs processed in 0.033 + 0.118s, loss: 0.737, some samples:
+Real: 0.000	 Discriminator: 0.521, Invariant: num transitions <= 1
+1 graphs processed in 0.034 + 0.117s, loss: 0.002, some samples:
+Real: 1.000	 Discriminator: 0.998, Invariant: data stack . sync root == null
+1 graphs processed in 0.035 + 0.118s, loss: 0.011, some samples:
+Real: 1.000	 Discriminator: 0.989, Invariant: m parameters != null
+1 graphs processed in 0.037 + 0.122s, loss: 3.011, some samples:
+Real: 0.000	 Discriminator: 0.951, Invariant: scale >= freedom
+1 graphs processed in 0.034 + 0.122s, loss: 0.182, some samples:
+Real: 0.000	 Discriminator: 0.166, Invariant: doc value type <= 0
+1 graphs processed in 0.036 + 0.127s, loss: 0.005, some samples:
+Real: 1.000	 Discriminator: 0.995, Invariant: indenter . runnerref != null
+1 graphs processed in 0.041 + 0.128s, loss: 0.010, some samples:
+Real: 1.000	 Discriminator: 0.990, Invariant: repo . to cleanup != null
+1 graphs processed in 0.035 + 0.118s, loss: 0.031, some samples:
+Real: 0.000	 Discriminator: 0.030, Invariant: value <= 1000
+1 graphs processed in 0.035 + 0.117s, loss: 0.016, some samples:
+Real: 0.000	 Discriminator: 0.016, Invariant: handle <= 0
+1 graphs processed in 0.036 + 0.118s, loss: 0.288, some samples:
+Real: 0.000	 Discriminator: 0.250, Invariant: shape == rate
+1 graphs processed in 0.035 + 0.127s, loss: 1.936, some samples:
+Real: 1.000	 Discriminator: 0.144, Invariant: flags == 65535
+1 graphs processed in 0.038 + 0.120s, loss: 0.235, some samples:
+Real: 0.000	 Discriminator: 0.209, Invariant: server id . end point >= 0
+1 graphs processed in 0.037 + 0.121s, loss: 5.504, some samples:
+Real: 0.000	 Discriminator: 0.996, Invariant: v a l u e == null
+1 graphs processed in 0.035 + 0.117s, loss: 0.011, some samples:
+Real: 1.000	 Discriminator: 0.989, Invariant: outer instance != null
+1 graphs processed in 0.039 + 0.124s, loss: 0.075, some samples:
+Real: 1.000	 Discriminator: 0.928, Invariant: data stack . version >= data stack . size
+1 graphs processed in 0.035 + 0.128s, loss: 0.137, some samples:
+Real: 1.000	 Discriminator: 0.872, Invariant: exp2 == null
+1 graphs processed in 0.035 + 0.118s, loss: 3.466, some samples:
+Real: 1.000	 Discriminator: 0.031, Invariant: m stream . m locking model . equals ( m locking model )
+1 graphs processed in 0.047 + 0.138s, loss: 0.017, some samples:
+Real: 1.000	 Discriminator: 0.983, Invariant: dot liquid . template . value type transformers != null
+1 graphs processed in 0.041 + 0.124s, loss: 0.035, some samples:
+Real: 0.000	 Discriminator: 0.034, Invariant: ret . to string ( ) . equals ( <String Literal> )
+1 graphs processed in 0.039 + 0.122s, loss: 0.026, some samples:
+Real: 0.000	 Discriminator: 0.025, Invariant: markup . to string ( ) . equals ( <String Literal> )
+1 graphs processed in 0.040 + 0.125s, loss: 2.811, some samples:
+Real: 0.000	 Discriminator: 0.940, Invariant: commits . repo == branches . repo
+1 graphs processed in 0.035 + 0.119s, loss: 1.514, some samples:
+Real: 0.000	 Discriminator: 0.780, Invariant: m next . m option >= m min
+1 graphs processed in 0.034 + 0.118s, loss: 0.090, some samples:
+Real: 0.000	 Discriminator: 0.086, Invariant: values . count == 1
+1 graphs processed in 0.035 + 0.119s, loss: 5.638, some samples:
+Real: 1.000	 Discriminator: 0.004, Invariant: pos <= flags
+1 graphs processed in 0.034 + 0.120s, loss: 2.961, some samples:
+Real: 1.000	 Discriminator: 0.052, Invariant: ret >= state . number
+1 graphs processed in 0.040 + 0.125s, loss: 0.010, some samples:
+Real: 1.000	 Discriminator: 0.990, Invariant: other . v a l u e != null
+1 graphs processed in 0.035 + 0.117s, loss: 0.003, some samples:
+Real: 1.000	 Discriminator: 0.997, Invariant: info == null
+1 graphs processed in 0.036 + 0.123s, loss: 0.002, some samples:
+Real: 0.000	 Discriminator: 0.002, Invariant: ret >= - 1
+1 graphs processed in 0.037 + 0.122s, loss: 0.000, some samples:
+Real: 0.000	 Discriminator: 0.000, Invariant: nu <= 0
+1 graphs processed in 0.039 + 0.121s, loss: 5.506, some samples:
+Real: 0.000	 Discriminator: 0.996, Invariant: m render writer . core new line != null
+1 graphs processed in 0.035 + 0.120s, loss: 0.000, some samples:
+Real: 1.000	 Discriminator: 1.000, Invariant: instance assigns != null
+1 graphs processed in 0.036 + 0.120s, loss: 0.000, some samples:
+Real: 0.000	 Discriminator: 0.000, Invariant: variable name . to string ( ) . equals ( <String Literal> )
+1 graphs processed in 0.040 + 0.123s, loss: 6.627, some samples:
+Real: 1.000	 Discriminator: 0.001, Invariant: pivots . all ( x => x >= 0 )
+1 graphs processed in 0.039 + 0.124s, loss: 0.629, some samples:
+Real: 1.000	 Discriminator: 0.533, Invariant: ret . initial . id >= initial . id
+1 graphs processed in 0.036 + 0.120s, loss: 8.036, some samples:
+Real: 0.000	 Discriminator: 1.000, Invariant: ret != null
+1 graphs processed in 0.034 + 0.119s, loss: 0.000, some samples:
+Real: 1.000	 Discriminator: 1.000, Invariant: message != null
+1 graphs processed in 0.040 + 0.122s, loss: 0.038, some samples:
+Real: 0.000	 Discriminator: 0.038, Invariant: complex . m real >= 0
+1 graphs processed in 0.039 + 0.126s, loss: 1.104, some samples:
+Real: 0.000	 Discriminator: 0.669, Invariant: context . rethrow errors == false
+1 graphs processed in 0.039 + 0.129s, loss: 0.006, some samples:
+Real: 1.000	 Discriminator: 0.994, Invariant: metrics . unit . bytes != null
+1 graphs processed in 0.040 + 0.126s, loss: 0.008, some samples:
+Real: 1.000	 Discriminator: 0.992, Invariant: logging event . m message != null
+1 graphs processed in 0.037 + 0.121s, loss: 6.222, some samples:
+Real: 0.000	 Discriminator: 0.998, Invariant: allowed members != null
+1 graphs processed in 0.039 + 0.123s, loss: 0.010, some samples:
+Real: 1.000	 Discriminator: 0.990, Invariant: handlers . m head list != null
+1 graphs processed in 0.038 + 0.123s, loss: 0.001, some samples:
+Real: 0.000	 Discriminator: 0.001, Invariant: scale == 1
+1 graphs processed in 0.041 + 0.128s, loss: 0.134, some samples:
+Real: 0.000	 Discriminator: 0.125, Invariant: data . all ( x => x == 0 )
+1 graphs processed in 0.038 + 0.125s, loss: 5.827, some samples:
+Real: 1.000	 Discriminator: 0.003, Invariant: opened at utc == 0
+1 graphs processed in 0.039 + 0.123s, loss: 0.007, some samples:
+Real: 1.000	 Discriminator: 0.993, Invariant: ends != null
+1 graphs processed in 0.038 + 0.122s, loss: 0.006, some samples:
+Real: 1.000	 Discriminator: 0.994, Invariant: description . type != null
+1 graphs processed in 0.034 + 0.116s, loss: 0.000, some samples:
+Real: 0.000	 Discriminator: 0.000, Invariant: ret <= 1
+1 graphs processed in 0.038 + 0.123s, loss: 0.257, some samples:
+Real: 1.000	 Discriminator: 0.774, Invariant: ret . initial . num transitions == initial . num transitions
+1 graphs processed in 0.032 + 0.120s, loss: 0.000, some samples:
+Real: 0.000	 Discriminator: 0.000, Invariant: m render writer >= 0
+1 graphs processed in 0.036 + 0.119s, loss: 0.005, some samples:
+Real: 1.000	 Discriminator: 0.995, Invariant: stream == null
+1 graphs processed in 0.034 + 0.117s, loss: 0.001, some samples:
+Real: 0.000	 Discriminator: 0.001, Invariant: doc value type <= index options
+1 graphs processed in 0.039 + 0.126s, loss: 0.001, some samples:
+Real: 0.000	 Discriminator: 0.001, Invariant: method . to string ( ) . equals ( <String Literal> )
+1 graphs processed in 0.040 + 0.129s, loss: 2.460, some samples:
+Real: 1.000	 Discriminator: 0.085, Invariant: values . count == 10
+1 graphs processed in 0.038 + 0.123s, loss: 0.000, some samples:
+Real: 1.000	 Discriminator: 1.000, Invariant: a . initial != null
+1 graphs processed in 0.040 + 0.127s, loss: 3.083, some samples:
+Real: 0.000	 Discriminator: 0.954, Invariant: context . data stack . array . count == 4
+1 graphs processed in 0.037 + 0.122s, loss: 0.000, some samples:
+Real: 1.000	 Discriminator: 1.000, Invariant: nested dictionary != null
+1 graphs processed in 0.036 + 0.120s, loss: 6.359, some samples:
+Real: 0.000	 Discriminator: 0.998, Invariant: m encoding != null
+1 graphs processed in 0.036 + 0.120s, loss: 0.077, some samples:
+Real: 0.000	 Discriminator: 0.074, Invariant: complex . m real == 1
+1 graphs processed in 0.044 + 0.130s, loss: 2.090, some samples:
+Real: 0.000	 Discriminator: 0.876, Invariant: a . initial . transitions array . all ( x => x != null )
+1 graphs processed in 0.033 + 0.120s, loss: 0.001, some samples:
+Real: 0.000	 Discriminator: 0.001, Invariant: num transitions >= 0
+1 graphs processed in 0.036 + 0.120s, loss: 0.003, some samples:
+Real: 1.000	 Discriminator: 0.997, Invariant: writer != null
+1 graphs processed in 0.035 + 0.121s, loss: 0.186, some samples:
+Real: 1.000	 Discriminator: 0.831, Invariant: pos >= exp1 . flags
+1 graphs processed in 0.039 + 0.127s, loss: 0.098, some samples:
+Real: 1.000	 Discriminator: 0.907, Invariant: ret . initial . id >= initial . number
+1 graphs processed in 0.038 + 0.122s, loss: 0.002, some samples:
+Real: 1.000	 Discriminator: 0.998, Invariant: settings != null
+1 graphs processed in 0.035 + 0.123s, loss: 0.005, some samples:
+Real: 1.000	 Discriminator: 0.995, Invariant: repo . diff != null
+1 graphs processed in 0.041 + 0.131s, loss: 0.590, some samples:
+Real: 1.000	 Discriminator: 0.554, Invariant: values . count == 10
+1 graphs processed in 0.036 + 0.126s, loss: 0.001, some samples:
+Real: 1.000	 Discriminator: 0.999, Invariant: callback != null
+1 graphs processed in 0.040 + 0.126s, loss: 2.040, some samples:
+Real: 0.000	 Discriminator: 0.870, Invariant: numbered states renamed . count == 2
+1 graphs processed in 0.034 + 0.117s, loss: 0.019, some samples:
+Real: 1.000	 Discriminator: 0.981, Invariant: m register new . method base == null
+1 graphs processed in 0.035 + 0.121s, loss: 0.002, some samples:
+Real: 1.000	 Discriminator: 0.998, Invariant: ret != null
+1 graphs processed in 0.039 + 0.126s, loss: 0.289, some samples:
+Real: 0.000	 Discriminator: 0.251, Invariant: uncounted . value >= alpha
+1 graphs processed in 0.044 + 0.137s, loss: 1.242, some samples:
+Real: 1.000	 Discriminator: 0.289, Invariant: a . numbered states renamed . id . all ( x => x >= #IntLiteral )
+1 graphs processed in 0.036 + 0.121s, loss: 0.332, some samples:
+Real: 0.000	 Discriminator: 0.282, Invariant: start time >= 100000000
+1 graphs processed in 0.036 + 0.122s, loss: 0.016, some samples:
+Real: 0.000	 Discriminator: 0.016, Invariant: context . strainer >= 0
+1 graphs processed in 0.033 + 0.116s, loss: 9.114, some samples:
+Real: 0.000	 Discriminator: 1.000, Invariant: start time != null
+1 graphs processed in 0.032 + 0.116s, loss: 0.000, some samples:
+Real: 0.000	 Discriminator: 0.000, Invariant: attributes >= 0
+1 graphs processed in 0.040 + 0.124s, loss: 0.001, some samples:
+Real: 0.000	 Discriminator: 0.001, Invariant: divisor >= 100
+1 graphs processed in 0.033 + 0.118s, loss: 0.151, some samples:
+Real: 0.000	 Discriminator: 0.141, Invariant: ret >= num transitions
+1 graphs processed in 0.038 + 0.124s, loss: 9.799, some samples:
+Real: 1.000	 Discriminator: 0.000, Invariant: upper == 1
+1 graphs processed in 0.039 + 0.124s, loss: 0.035, some samples:
+Real: 1.000	 Discriminator: 0.966, Invariant: m root . m appender lock != null
+1 graphs processed in 0.038 + 0.122s, loss: 0.000, some samples:
+Real: 0.000	 Discriminator: 0.000, Invariant: location >= 0
+1 graphs processed in 0.034 + 0.117s, loss: 0.006, some samples:
+Real: 1.000	 Discriminator: 0.994, Invariant: repo . path case != null
+1 graphs processed in 0.034 + 0.118s, loss: 0.000, some samples:
+Real: 1.000	 Discriminator: 1.000, Invariant: section stack != null
+1 graphs processed in 0.034 + 0.117s, loss: 0.000, some samples:
+Real: 0.000	 Discriminator: 0.000, Invariant: ret >= 0
+1 graphs processed in 0.039 + 0.127s, loss: 0.003, some samples:
+Real: 1.000	 Discriminator: 0.997, Invariant: objects != null
+1 graphs processed in 0.034 + 0.120s, loss: 0.016, some samples:
+Real: 0.000	 Discriminator: 0.016, Invariant: transitions array . count == 4
+1 graphs processed in 0.039 + 0.122s, loss: 4.794, some samples:
+Real: 0.000	 Discriminator: 0.992, Invariant: value == null
+1 graphs processed in 0.038 + 0.125s, loss: 0.001, some samples:
+Real: 1.000	 Discriminator: 0.999, Invariant: name != null
+2 graphs processed in 0.044 + 0.137s, loss: 0.009, some samples:
+Real: 0.000	 Discriminator: 0.000, Invariant: template name . to string ( ) . equals ( <String Literal> )
+Real: 0.000	 Discriminator: 0.017, Invariant: ret . is healthy == false
+1 graphs processed in 0.039 + 0.127s, loss: 1.177, some samples:
+Real: 1.000	 Discriminator: 0.308, Invariant: ret . initial . accept == false
+1 graphs processed in 0.039 + 0.123s, loss: 0.000, some samples:
+Real: 0.000	 Discriminator: 0.000, Invariant: value >= 1
+1 graphs processed in 0.038 + 0.125s, loss: 0.012, some samples:
+Real: 1.000	 Discriminator: 0.988, Invariant: ret != null
+1 graphs processed in 0.034 + 0.117s, loss: 0.001, some samples:
+Real: 0.000	 Discriminator: 0.001, Invariant: start time == 100000000
+1 graphs processed in 0.041 + 0.125s, loss: 0.004, some samples:
+Real: 1.000	 Discriminator: 0.996, Invariant: log event . m data . exception string != null
+1 graphs processed in 0.038 + 0.124s, loss: 0.002, some samples:
+Real: 1.000	 Discriminator: 0.998, Invariant: to cleanup . array != null
+1 graphs processed in 0.044 + 0.132s, loss: 0.006, some samples:
+Real: 0.000	 Discriminator: 0.006, Invariant: points . point . all ( x => x <= 0 )
+1 graphs processed in 0.040 + 0.127s, loss: 1.797, some samples:
+Real: 1.000	 Discriminator: 0.166, Invariant: ret . numbered states renamed . contains ( ret . initial )
+1 graphs processed in 0.034 + 0.118s, loss: 6.939, some samples:
+Real: 1.000	 Discriminator: 0.001, Invariant: ret == false
+1 graphs processed in 0.035 + 0.119s, loss: 5.519, some samples:
+Real: 1.000	 Discriminator: 0.004, Invariant: pos >= digits
+1 graphs processed in 0.039 + 0.124s, loss: 0.024, some samples:
+Real: 0.000	 Discriminator: 0.024, Invariant: data stack . array . contains ( template locator )
+1 graphs processed in 0.039 + 0.127s, loss: 0.000, some samples:
+Real: 1.000	 Discriminator: 1.000, Invariant: repo . submodules != null
+1 graphs processed in 0.034 + 0.118s, loss: 0.002, some samples:
+Real: 0.000	 Discriminator: 0.002, Invariant: ret == 1
+1 graphs processed in 0.035 + 0.118s, loss: 2.693, some samples:
+Real: 1.000	 Discriminator: 0.068, Invariant: m use transactions == true
+1 graphs processed in 0.036 + 0.118s, loss: 0.022, some samples:
+Real: 1.000	 Discriminator: 0.979, Invariant: section stack . version >= section stack . size
+1 graphs processed in 0.038 + 0.123s, loss: 2.285, some samples:
+Real: 1.000	 Discriminator: 0.102, Invariant: s2 . id >= 0
+1 graphs processed in 0.040 + 0.128s, loss: 0.610, some samples:
+Real: 0.000	 Discriminator: 0.457, Invariant: ret . array . count == 0
+1 graphs processed in 0.040 + 0.129s, loss: 0.000, some samples:
+Real: 1.000	 Discriminator: 1.000, Invariant: ret . servers != null
+1 graphs processed in 0.038 + 0.123s, loss: 0.000, some samples:
+Real: 1.000	 Discriminator: 1.000, Invariant: random != null
+1 graphs processed in 0.036 + 0.120s, loss: 0.000, some samples:
+Real: 1.000	 Discriminator: 1.000, Invariant: indenter . roptions != null
+1 graphs processed in 0.034 + 0.117s, loss: 0.024, some samples:
+Real: 0.000	 Discriminator: 0.024, Invariant: notify callback >= new prefix string
+1 graphs processed in 0.034 + 0.119s, loss: 6.181, some samples:
+Real: 1.000	 Discriminator: 0.002, Invariant: old prefix string == 0
+1 graphs processed in 0.035 + 0.117s, loss: 5.042, some samples:
+Real: 1.000	 Discriminator: 0.006, Invariant: ret >= 0
+1 graphs processed in 0.040 + 0.124s, loss: 1.411, some samples:
+Real: 1.000	 Discriminator: 0.244, Invariant: locks . contains ( lock name )
+1 graphs processed in 0.036 + 0.121s, loss: 0.026, some samples:
+Real: 1.000	 Discriminator: 0.974, Invariant: id . pid == 0
+1 graphs processed in 0.039 + 0.127s, loss: 0.000, some samples:
+Real: 1.000	 Discriminator: 1.000, Invariant: metrics . unit . bytes != null
+1 graphs processed in 0.040 + 0.122s, loss: 0.017, some samples:
+Real: 0.000	 Discriminator: 0.017, Invariant: scale <= 1
+1 graphs processed in 0.032 + 0.120s, loss: -0.000, some samples:
+Real: 1.000	 Discriminator: 1.000, Invariant: items != null
+1 graphs processed in 0.040 + 0.129s, loss: 10.184, some samples:
+Real: 0.000	 Discriminator: 1.000, Invariant: m create wrapper handler . target != null
+1 graphs processed in 0.037 + 0.271s, loss: 0.292, some samples:
+Real: 1.000	 Discriminator: 0.746, Invariant: numbered states renamed . transitions array . count == 2
+1 graphs processed in 0.033 + 0.116s, loss: 0.000, some samples:
+Real: 1.000	 Discriminator: 1.000, Invariant: root node list != null
+1 graphs processed in 0.034 + 0.119s, loss: -0.000, some samples:
+Real: 1.000	 Discriminator: 1.000, Invariant: section stack != null
+1 graphs processed in 0.035 + 0.118s, loss: 0.000, some samples:
+Real: 1.000	 Discriminator: 1.000, Invariant: log event . m data != null
+1 graphs processed in 0.038 + 0.122s, loss: 0.000, some samples:
+Real: 1.000	 Discriminator: 1.000, Invariant: metrics . unit . results != null
+1 graphs processed in 0.039 + 0.123s, loss: 0.007, some samples:
+Real: 1.000	 Discriminator: 0.993, Invariant: transitions array . min renamed . all ( x => x >= 0 )
+1 graphs processed in 0.039 + 0.127s, loss: 6.900, some samples:
+Real: 0.000	 Discriminator: 0.999, Invariant: repo . odb >= 0
+1 graphs processed in 0.042 + 0.133s, loss: 0.009, some samples:
+Real: 1.000	 Discriminator: 0.991, Invariant: point . equals ( point )
+1 graphs processed in 0.040 + 0.122s, loss: 4.153, some samples:
+Real: 0.000	 Discriminator: 0.984, Invariant: connection id . local value >= 1
+1 graphs processed in 0.039 + 0.123s, loss: 2.684, some samples:
+Real: 0.000	 Discriminator: 0.932, Invariant: markup . to string ( ) . equals ( <String Literal> )
+1 graphs processed in 0.038 + 0.122s, loss: 0.001, some samples:
+Real: 1.000	 Discriminator: 0.999, Invariant: ret . initial . id >= c
+1 graphs processed in 0.039 + 0.123s, loss: 0.000, some samples:
+Real: 1.000	 Discriminator: 1.000, Invariant: logging event . m fix flags != null
+1 graphs processed in 0.038 + 0.123s, loss: 4.143, some samples:
+Real: 0.000	 Discriminator: 0.984, Invariant: transitions array . min renamed . all ( x => x <= 32 )
+1 graphs processed in 0.034 + 0.117s, loss: 1.103, some samples:
+Real: 0.000	 Discriminator: 0.668, Invariant: ret >= 0
+1 graphs processed in 0.035 + 0.118s, loss: 0.001, some samples:
+Real: 0.000	 Discriminator: 0.001, Invariant: lower <= 1
+1 graphs processed in 0.039 + 0.126s, loss: 0.001, some samples:
+Real: 1.000	 Discriminator: 0.999, Invariant: repo . commits != null
+1 graphs processed in 0.036 + 0.121s, loss: 0.006, some samples:
+Real: 1.000	 Discriminator: 0.994, Invariant: m reconnect on error == false
+1 graphs processed in 0.039 + 0.132s, loss: 0.010, some samples:
+Real: 1.000	 Discriminator: 0.990, Invariant: ret . has value == true
+1 graphs processed in 0.045 + 0.138s, loss: 1.876, some samples:
+Real: 0.000	 Discriminator: 0.847, Invariant: context . data stack . array . contains ( context . template locator . method base )
+1 graphs processed in 0.041 + 0.129s, loss: 0.016, some samples:
+Real: 0.000	 Discriminator: 0.015, Invariant: method . to string ( ) . equals ( <String Literal> )
+1 graphs processed in 0.041 + 0.142s, loss: 4.927, some samples:
+Real: 0.000	 Discriminator: 0.993, Invariant: ret . deterministic == true
+1 graphs processed in 0.041 + 0.138s, loss: 0.002, some samples:
+Real: 1.000	 Discriminator: 0.998, Invariant: stashes != null
+1 graphs processed in 0.041 + 0.131s, loss: 0.162, some samples:
+Real: 0.000	 Discriminator: 0.149, Invariant: m root . m name >= 0
+Evaluating:
+1 graphs processed in 0.037 + 0.000s, loss: 0.382, some samples:
+Real: 1.000	 Discriminator: 0.682, Invariant: samples >= pdf ln p . method ptr aux
+1 graphs processed in 0.037 + 0.000s, loss: 0.025, some samples:
+Real: 1.000	 Discriminator: 0.975, Invariant: pdf ln p . method base == null
+1 graphs processed in 0.042 + 0.000s, loss: 0.781, some samples:
+Real: 1.000	 Discriminator: 0.458, Invariant: q . transitions array . max renamed . all ( x => x != null )
+1 graphs processed in 0.047 + 0.000s, loss: 0.495, some samples:
+Real: 1.000	 Discriminator: 0.609, Invariant: q . number <= q . id
+1 graphs processed in 0.037 + 0.000s, loss: 0.003, some samples:
+Real: 1.000	 Discriminator: 0.997, Invariant: last != null
+1 graphs processed in 0.035 + 0.000s, loss: 0.080, some samples:
+Real: 0.000	 Discriminator: 0.077, Invariant: last . sl >= 0
+1 graphs processed in 0.036 + 0.000s, loss: 0.179, some samples:
+Real: 1.000	 Discriminator: 0.836, Invariant: ret . prev . next != null
+1 graphs processed in 0.034 + 0.000s, loss: 0.008, some samples:
+Real: 0.000	 Discriminator: 0.008, Invariant: ret >= 0
+1 graphs processed in 0.037 + 0.000s, loss: 3.536, some samples:
+Real: 0.000	 Discriminator: 0.971, Invariant: repository . ignore != null
+1 graphs processed in 0.035 + 0.000s, loss: 0.002, some samples:
+Real: 1.000	 Discriminator: 0.998, Invariant: state != null
+1 graphs processed in 0.038 + 0.000s, loss: 0.087, some samples:
+Real: 1.000	 Discriminator: 0.917, Invariant: dot liquid . strainer . filters != null
+1 graphs processed in 0.036 + 0.000s, loss: 0.021, some samples:
+Real: 1.000	 Discriminator: 0.979, Invariant: repository . rebase operation != null
+1 graphs processed in 0.032 + 0.000s, loss: 0.005, some samples:
+Real: 1.000	 Discriminator: 0.995, Invariant: ret != null
+1 graphs processed in 0.039 + 0.000s, loss: 0.073, some samples:
+Real: 1.000	 Discriminator: 0.930, Invariant: ret . has value == true
+1 graphs processed in 0.033 + 0.000s, loss: 0.003, some samples:
+Real: 1.000	 Discriminator: 0.997, Invariant: counter != null
+1 graphs processed in 0.035 + 0.000s, loss: 0.002, some samples:
+Real: 1.000	 Discriminator: 0.998, Invariant: mode != null
+1 graphs processed in 0.041 + 0.000s, loss: 0.804, some samples:
+Real: 1.000	 Discriminator: 0.447, Invariant: m level info . m level name . equals ( m level info . m level display name )
+validation on 17 samples: discriminator: acc: 0.824, prec: 0.923, rec: 0.857
+1 graphs processed in 0.034 + 0.000s, loss: 0.005, some samples:
+Real: 1.000	 Discriminator: 0.995, Invariant: ret != null
+1 graphs processed in 0.039 + 0.000s, loss: 0.010, some samples:
+Real: 0.000	 Discriminator: 0.010, Invariant: v a l u e <= 0
+1 graphs processed in 0.039 + 0.000s, loss: 0.006, some samples:
+Real: 0.000	 Discriminator: 0.006, Invariant: v a l u e >= 1
+1 graphs processed in 0.037 + 0.000s, loss: 0.005, some samples:
+Real: 1.000	 Discriminator: 0.995, Invariant: ret != null
+2 graphs processed in 0.040 + 0.000s, loss: 0.091, some samples:
+Real: 0.000	 Discriminator: 0.061, Invariant: cluster id . v a l u e >= 0
+Real: 0.000	 Discriminator: 0.113, Invariant: up to <= current
+2 graphs processed in 0.037 + 0.000s, loss: 0.044, some samples:
+Real: 1.000	 Discriminator: 0.999, Invariant: outer instance != null
+Real: 0.000	 Discriminator: 0.084, Invariant: i <= current
+2 graphs processed in 0.039 + 0.000s, loss: 0.792, some samples:
+Real: 0.000	 Discriminator: 0.792, Invariant: up to == i
+Real: 1.000	 Discriminator: 0.984, Invariant: outer instance . outer instance != null
+1 graphs processed in 0.032 + 0.000s, loss: 0.429, some samples:
+Real: 0.000	 Discriminator: 0.349, Invariant: outer instance . outer instance >= i
+1 graphs processed in 0.038 + 0.000s, loss: 1.870, some samples:
+Real: 1.000	 Discriminator: 0.154, Invariant: oid . id . count == 20
+1 graphs processed in 0.035 + 0.000s, loss: 5.458, some samples:
+Real: 0.000	 Discriminator: 0.996, Invariant: m array != null
+1 graphs processed in 0.034 + 0.000s, loss: 0.047, some samples:
+Real: 0.000	 Discriminator: 0.046, Invariant: v a l u e == 1
+1 graphs processed in 0.035 + 0.000s, loss: 0.050, some samples:
+Real: 1.000	 Discriminator: 0.952, Invariant: entry . m key != null
+1 graphs processed in 0.036 + 0.000s, loss: 0.192, some samples:
+Real: 1.000	 Discriminator: 0.825, Invariant: metrics . unit . errors != null
+1 graphs processed in 0.039 + 0.000s, loss: 0.115, some samples:
+Real: 0.000	 Discriminator: 0.109, Invariant: ret . storage . values . count == 9
+1 graphs processed in 0.032 + 0.000s, loss: 6.111, some samples:
+Real: 0.000	 Discriminator: 0.998, Invariant: resolution == null
+1 graphs processed in 0.039 + 0.000s, loss: 3.068, some samples:
+Real: 0.000	 Discriminator: 0.954, Invariant: logging event . m composite properties == null
+1 graphs processed in 0.039 + 0.000s, loss: 1.574, some samples:
+Real: 0.000	 Discriminator: 0.793, Invariant: logging event . m data . properties == null
+1 graphs processed in 0.039 + 0.000s, loss: 2.562, some samples:
+Real: 1.000	 Discriminator: 0.077, Invariant: ret . merge policy . equals ( merge policy )
+1 graphs processed in 0.036 + 0.000s, loss: 0.039, some samples:
+Real: 1.000	 Discriminator: 0.962, Invariant: ret . merge scheduler != null
+1 graphs processed in 0.035 + 0.000s, loss: 0.573, some samples:
+Real: 1.000	 Discriminator: 0.564, Invariant: write lock timeout >= open mode
+1 graphs processed in 0.035 + 0.000s, loss: 1.747, some samples:
+Real: 1.000	 Discriminator: 0.174, Invariant: per thread hard limit mb >= max buffered docs
+1 graphs processed in 0.038 + 0.000s, loss: 1.183, some samples:
+Real: 1.000	 Discriminator: 0.306, Invariant: ret . reader terms index divisor >= ret . max buffered delete terms
+1 graphs processed in 0.035 + 0.000s, loss: 3.759, some samples:
+Real: 1.000	 Discriminator: 0.023, Invariant: ram buffer size mb == 16
+1 graphs processed in 0.038 + 0.000s, loss: 1.030, some samples:
+Real: 1.000	 Discriminator: 0.357, Invariant: ret . merge policy . no cfs ratio renamed <= reader terms index divisor
+1 graphs processed in 0.035 + 0.000s, loss: 1.109, some samples:
+Real: 0.000	 Discriminator: 0.670, Invariant: open mode <= max buffered docs
+1 graphs processed in 0.035 + 0.000s, loss: 1.280, some samples:
+Real: 0.000	 Discriminator: 0.722, Invariant: open mode >= max buffered docs
+1 graphs processed in 0.040 + 0.000s, loss: 2.186, some samples:
+Real: 1.000	 Discriminator: 0.112, Invariant: ret . term index interval >= max buffered delete terms
+1 graphs processed in 0.036 + 0.000s, loss: 2.793, some samples:
+Real: 1.000	 Discriminator: 0.061, Invariant: ret . per thread hard limit mb >= term index interval
+1 graphs processed in 0.036 + 0.000s, loss: 0.880, some samples:
+Real: 1.000	 Discriminator: 0.415, Invariant: ret . ram buffer size mb >= open mode
+1 graphs processed in 0.036 + 0.000s, loss: 1.053, some samples:
+Real: 1.000	 Discriminator: 0.349, Invariant: interval >= indexer thread pool . num thread states active
+1 graphs processed in 0.038 + 0.000s, loss: 2.337, some samples:
+Real: 1.000	 Discriminator: 0.097, Invariant: ret . indexer thread pool . num thread states active <= per thread hard limit mb
+1 graphs processed in 0.036 + 0.000s, loss: 0.141, some samples:
+Real: 1.000	 Discriminator: 0.868, Invariant: ret . check integrity at merge == false
+1 graphs processed in 0.036 + 0.000s, loss: 2.656, some samples:
+Real: 1.000	 Discriminator: 0.070, Invariant: ret . max buffered delete terms <= reader terms index divisor
+1 graphs processed in 0.035 + 0.000s, loss: 0.001, some samples:
+Real: 1.000	 Discriminator: 0.999, Invariant: del policy != null
+1 graphs processed in 0.035 + 0.000s, loss: 3.259, some samples:
+Real: 1.000	 Discriminator: 0.038, Invariant: write lock timeout >= reader terms index divisor
+1 graphs processed in 0.036 + 0.000s, loss: 0.123, some samples:
+Real: 0.000	 Discriminator: 0.115, Invariant: data stack . array . contains ( indenter . capslist )
+1 graphs processed in 0.033 + 0.000s, loss: 0.031, some samples:
+Real: 1.000	 Discriminator: 0.970, Invariant: indenter . pattern != null
+1 graphs processed in 0.035 + 0.000s, loss: 0.574, some samples:
+Real: 1.000	 Discriminator: 0.563, Invariant: section stack . version >= data stack . version
+1 graphs processed in 0.032 + 0.000s, loss: 0.005, some samples:
+Real: 1.000	 Discriminator: 0.995, Invariant: ret != null
+1 graphs processed in 0.039 + 0.000s, loss: 1.012, some samples:
+Real: 1.000	 Discriminator: 0.364, Invariant: ret . initial . id >= min
+1 graphs processed in 0.042 + 0.000s, loss: 0.052, some samples:
+Real: 0.000	 Discriminator: 0.051, Invariant: initial . transitions array . all ( x => x >= 0 )
+1 graphs processed in 0.038 + 0.000s, loss: 1.012, some samples:
+Real: 1.000	 Discriminator: 0.363, Invariant: ret . initial . num transitions >= min
+1 graphs processed in 0.038 + 0.000s, loss: 0.192, some samples:
+Real: 1.000	 Discriminator: 0.825, Invariant: numbered states renamed . count == 2
+1 graphs processed in 0.038 + 0.000s, loss: 0.482, some samples:
+Real: 1.000	 Discriminator: 0.618, Invariant: numbered states renamed . number . count == 2
+1 graphs processed in 0.039 + 0.000s, loss: 0.914, some samples:
+Real: 1.000	 Discriminator: 0.401, Invariant: ret . initial . id >= initial . num transitions
+1 graphs processed in 0.036 + 0.000s, loss: 0.003, some samples:
+Real: 1.000	 Discriminator: 0.997, Invariant: info == null
+1 graphs processed in 0.040 + 0.000s, loss: 0.040, some samples:
+Real: 1.000	 Discriminator: 0.961, Invariant: m level fatal . m level value >= m level error . m level value
+1 graphs processed in 0.038 + 0.000s, loss: 0.587, some samples:
+Real: 1.000	 Discriminator: 0.556, Invariant: state . v a l u e <= settings . maintenance interval
+1 graphs processed in 0.039 + 0.000s, loss: 0.657, some samples:
+Real: 0.000	 Discriminator: 0.481, Invariant: settings . max connections <= connection holder . connections
+1 graphs processed in 0.035 + 0.000s, loss: 5.727, some samples:
+Real: 0.000	 Discriminator: 0.997, Invariant: wait queue != null
+1 graphs processed in 0.035 + 0.000s, loss: 0.003, some samples:
+Real: 1.000	 Discriminator: 0.997, Invariant: opened event handler == null
+1 graphs processed in 0.037 + 0.000s, loss: 0.033, some samples:
+Real: 1.000	 Discriminator: 0.967, Invariant: pool queue . semaphore != null
+1 graphs processed in 0.039 + 0.000s, loss: 1.530, some samples:
+Real: 1.000	 Discriminator: 0.217, Invariant: numbered states renamed . number . all ( x => x >= 0 )
+1 graphs processed in 0.039 + 0.000s, loss: 0.451, some samples:
+Real: 1.000	 Discriminator: 0.637, Invariant: numbered states renamed . transitions array . all ( x => x != null )
+1 graphs processed in 0.035 + 0.000s, loss: 2.660, some samples:
+Real: 1.000	 Discriminator: 0.070, Invariant: initial . number >= 0
+1 graphs processed in 0.039 + 0.000s, loss: 0.310, some samples:
+Real: 0.000	 Discriminator: 0.266, Invariant: numbered states renamed . id . all ( x => x >= 63 )
+1 graphs processed in 0.042 + 0.000s, loss: 0.162, some samples:
+Real: 0.000	 Discriminator: 0.150, Invariant: storage . data . all ( x => x == 0 )
+1 graphs processed in 0.039 + 0.000s, loss: 0.135, some samples:
+Real: 0.000	 Discriminator: 0.126, Invariant: storage . data . count == 6
+1 graphs processed in 0.040 + 0.000s, loss: 0.001, some samples:
+Real: 0.000	 Discriminator: 0.001, Invariant: name . to string ( ) . equals ( <String Literal> )
+1 graphs processed in 0.038 + 0.000s, loss: 0.005, some samples:
+Real: 1.000	 Discriminator: 0.995, Invariant: context != null
+1 graphs processed in 0.039 + 0.000s, loss: 0.183, some samples:
+Real: 1.000	 Discriminator: 0.833, Invariant: metrics . metrics config . log != null
+1 graphs processed in 0.038 + 0.000s, loss: 0.003, some samples:
+Real: 1.000	 Discriminator: 0.997, Invariant: histogram != null
+1 graphs processed in 0.038 + 0.000s, loss: 0.003, some samples:
+Real: 1.000	 Discriminator: 0.997, Invariant: type != null
+testing on 66 samples: discriminator: acc: 0.606, prec: 0.758, rec: 0.581
